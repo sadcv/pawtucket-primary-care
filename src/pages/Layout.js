@@ -6,66 +6,66 @@ function Layout() {
   return (
     <div className="Layout">
       {/* Header */}
-      <nav style={{ color: "white", backgroundColor: "#2C7370", display: "flex", alignItems: "center" }}>
-        <div style={{ display: "flex", alignItems: "center" }} >
-          <img style={{ width: "3rem", height: "3rem" }} src={logo} alt="Pawtucket Primary Care logo" />
-          <h1>Pawtucket Primary Care</h1>
+      <nav style={{ height: "5rem", color: "white", backgroundColor: "#2C7370", display: "flex", alignItems: "center" }}>
+        <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "8%" }} >
+          <img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" />
+          <h1 style={{marginLeft: "1rem"}} >Pawtucket Primary Care</h1>
         </div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{display: "flex", alignItems: "center", justifyContent: "space-between", width: "55%", position: "absolute", right: "6%" }}>
           <Link className='navLink' to="/">Home</Link>
           <Link className='navLink' to="/services">Services</Link>
           <Link className='navLink' to="/clinician">Our Clinician</Link>
           <Link className='navLink' to="/contact">Contact Us</Link>
           <Link className='navLink' to="/hours">Hours Of Operation</Link>
           <Link className='navLink' to="/insurance">Insurance</Link>
-          <Link className='navLink' to="/appointment">Book An Appointment</Link>
+          <Link className='navLink' style={{color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px"}} to="/appointment">Book an Appointment</Link>
         </div>
       </nav>
 
       <Outlet />
 
       {/* Footer */}
-      <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex" }}>
+      <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", justifyContent: "space-between", padding:"2rem 8%" }}>
         <div>
-          <h3>LINKS</h3>
+          <h3 className='bottomPad'>LINKS</h3>
           <div style={{ display: "flex" }} >
             <div style={{ display: "flex", flexDirection: "column" }} >
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/">Home</Link>
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/services">Services</Link>
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/clinician">Our Clinician</Link>
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/contact">Contact Us</Link>
+              <Link className='navLink bottomPad' to="/">Home</Link>
+              <Link className='navLink bottomPad' to="/services">Services</Link>
+              <Link className='navLink bottomPad' to="/clinician">Our Clinician</Link>
+              <Link className='navLink bottomPad' to="/contact">Contact Us</Link>
             </div>
-            <div style={{ display: "flex", flexDirection: "column" }} >
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/hours">Hours Of Operation</Link>
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/insurance">Insurance</Link>
-              <Link className='navLink' style={{padding: "1rem 0rem"}} to="/appointment">Book An Appointment</Link>
+            <div style={{ display: "flex", flexDirection: "column", marginLeft: "2rem" }} >
+              <Link className='navLink bottomPad' to="/hours">Hours Of Operation</Link>
+              <Link className='navLink bottomPad' to="/insurance">Insurance</Link>
+              <Link className='navLink bottomPad' to="/appointment">Book An Appointment</Link>
             </div>
           </div>
         </div>
         <div>
-          <h3>CONTACT US</h3>
-          <p>Phone: (401) 244-5900</p>
-          <p>Fax: (401) 262-5501</p>
-          <p>126 Prospect St, Suite 103, Pawtucket, RI 02860</p>
-          <p>pawtucket.primary.care@gmail.com</p>
+          <h3 className='bottomPad'>CONTACT US</h3>
+          <p className='bottomPad'>Phone: (401) 244-5900</p>
+          <p className='bottomPad'>Fax: (401) 262-5501</p>
+          <p className='bottomPad'>126 Prospect St, Suite 103, Pawtucket, RI 02860</p>
+          <p className='bottomPad'>pawtucket.primary.care@gmail.com</p>
         </div>
-        <img style={{ width: "3rem", height: "3rem" }} src={logo} alt="Pawtucket Primary Care logo" />
+        <img style={{ width: "100px", height: "100px" }} src={logo} alt="Pawtucket Primary Care logo" />
         <div>
-          <h1>Pawtucket Primary Care</h1>
+          <h1 className='bottomPad'>Pawtucket Primary Care</h1>
           <div style={{ display: "flex" }} >
             <div>
-              <p>Monday:</p>
-              <p>Tuesday:</p>
-              <p>Wednesday:</p>
-              <p>Thursday:</p>
-              <p>Friday:</p>
+              <p className='bottomPadSmall'>Monday:</p>
+              <p className='bottomPadSmall'>Tuesday:</p>
+              <p className='bottomPadSmall'>Wednesday:</p>
+              <p className='bottomPadSmall'>Thursday:</p>
+              <p className='bottomPadSmall'>Friday:</p>
             </div>
-            <div>
-              <p>8:00 am - 4:30 pm</p>
-              <p>8:00 am - 4:30 pm</p>
-              <p>8:00 am - 4:30 pm</p>
-              <p>8:00 am - 4:30 pm</p>
-              <p>8:00 am - 4:30 pm</p>
+            <div style={{marginLeft: "1rem"}} >
+              <p className='bottomPadSmall'>8:00 am - 4:30 pm</p>
+              <p className='bottomPadSmall'>8:00 am - 4:30 pm</p>
+              <p className='bottomPadSmall'>8:00 am - 4:30 pm</p>
+              <p className='bottomPadSmall'>8:00 am - 4:30 pm</p>
+              <p className='bottomPadSmall'>8:00 am - 4:30 pm</p>
             </div>
           </div>
         </div>
