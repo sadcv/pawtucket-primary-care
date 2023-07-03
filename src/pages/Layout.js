@@ -27,7 +27,7 @@ function Layout() {
       {/* Footer */}
       <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", justifyContent: "space-between", padding:"2rem 8%" }}>
         <div>
-          <h3 className='bottomPad'>LINKS</h3>
+          <h2 className='bottomPad'>LINKS</h2>
           <div style={{ display: "flex" }} >
             <div style={{ display: "flex", flexDirection: "column" }} >
               <Link className='navLink bottomPad' to="/">Home</Link>
@@ -43,7 +43,7 @@ function Layout() {
           </div>
         </div>
         <div>
-          <h3 className='bottomPad'>CONTACT US</h3>
+          <h2 className='bottomPad'>CONTACT US</h2>
           <p className='bottomPad'>Phone: (401) 244-5900</p>
           <p className='bottomPad'>Fax: (401) 262-5501</p>
           <p className='bottomPad'>126 Prospect St, Suite 103, Pawtucket, RI 02860</p>
