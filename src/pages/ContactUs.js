@@ -17,7 +17,7 @@ function ContactUs() {
         <div style={{ display: "flex" }}>
           <div>
             <p className='spaceBottom contactTitle' >Address</p>
-            <p className='spaceBottom' >126 Prospect St, Suite 103</p>
+            <p className='spaceBottom' >126 Prospect St, Suite 201</p>
             <p className='spaceBottom' >Pawtucket, RI</p>
             <p className='spaceBottom' >02860</p>
           </div>
