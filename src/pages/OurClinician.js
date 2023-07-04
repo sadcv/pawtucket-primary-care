@@ -7,12 +7,12 @@ function OurClinician() {
   return (
     <div className="OurClinician">
       <div className='layer1' style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center", margin: "6rem 0rem"}}>
-        <img src={nurse_picture} alt="A picture of our smiling nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} />
-        <div style={{ width: "30rem" , marginLeft: "4rem"}}>
-          <p style={{ fontSize: "20px" }} >Meet the Clinician</p>
+        <img src={nurse_picture} alt="Our nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} />
+        <div style={{ width: "32rem" , marginLeft: "4rem"}}>
+          <p style={{ fontSize: "24px", fontWeight: "600" }} >Meet the Clinician</p>
           <div style={{ display: "flex", marginBottom: "1rem" }}>
-            <p style={{ fontSize: "48px" }} >Anne Valez</p>
-            <p style={{ fontSize: "48px", color: "#2C7370", marginLeft: "10px" }} >APRN, FNP</p>
+            <p style={{ fontSize: "48px", fontWeight: "600" }} >Anne Valez</p>
+            <p style={{ fontSize: "48px", color: "#2C7370", marginLeft: "10px", fontWeight: "600" }} >APRN, FNP</p>
           </div>
           <div style={{marginBottom: "1rem"}} >
             <p className='clinician-mid_print'>Dedicated to providing quality care to patients.</p>
@@ -27,8 +27,8 @@ function OurClinician() {
           </div>
         </div>
       </div>
-      <img className="layer0" src={solid_circle_right} style={{ position: "absolute", top: "7rem", right: "4rem" }} />
-      <img className="layer0" src={solid_circle_left} style={{ position: "absolute", bottom: "4.5rem" }} />
+      <img className="layer0" src={solid_circle_right} alt="" style={{ position: "absolute", top: "7rem", right: "4rem" }} />
+      <img className="layer0" src={solid_circle_left} alt="" style={{ position: "absolute", bottom: "4.5rem" }} />
     </div>
   );
 }

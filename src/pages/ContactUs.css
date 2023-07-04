@@ -1,8 +1,17 @@
+h5 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
 .spaceBottom {
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   font-size: 20px;
 }
 
 .contactTitle {
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.contactText {
+  font-weight: 300;
 }

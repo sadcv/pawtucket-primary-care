@@ -18,7 +18,7 @@ function Layout() {
           <Link className='navLink' to="/contact">Contact Us</Link>
           <Link className='navLink' to="/hours">Hours Of Operation</Link>
           <Link className='navLink' to="/insurance">Insurance</Link>
-          <Link className='navLink' style={{color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px"}} to="/appointment">Book an Appointment</Link>
+          <Link className='navLink' style={{color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400"}} to="/appointment">Book Appointment</Link>
         </div>
       </nav>
 
@@ -38,7 +38,7 @@ function Layout() {
             <div style={{ display: "flex", flexDirection: "column", marginLeft: "2rem" }} >
               <Link className='navLink bottomPad' to="/hours">Hours Of Operation</Link>
               <Link className='navLink bottomPad' to="/insurance">Insurance</Link>
-              <Link className='navLink bottomPad' to="/appointment">Book An Appointment</Link>
+              <Link className='navLink bottomPad' to="/appointment">Book Appointment</Link>
             </div>
           </div>
         </div>

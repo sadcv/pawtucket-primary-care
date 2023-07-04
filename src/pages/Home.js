@@ -1,5 +1,5 @@
 import './Home.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import main_pic from "../media/home_main_pic.png";
 import second_pic from "../media/home_second_pic.jpg";
 
@@ -15,16 +15,16 @@ function Home() {
       <div className="layer1" style={{position: "relative"}} >
         {/* Top Bar */}
         <div style={{ display: "flex", justifyContent: "space-around", padding: "4rem 8%" }} >
-          <div style={{ width: "28rem", height: "17rem", display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
+          <div style={{ width: "30rem", height: "17rem", display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
             <h3>Pawtucket Primary Care</h3>
             <h4>At Pawtucket Primary Care, we give individualized, person centered care.</h4>
             <p>With personalized health care, patients can experience improved quality of life through preventative care,
               better management of chronic illnesses, and faster recovery from acute conditions. We work closely with the
               individual to plan their care and support to meet an individual's unique needs.</p>
           </div>
-          <div style={{ position: "relative", width: "40rem", height: "17rem" }} >
+          <div style={{ position: "relative", width: "34rem", height: "17rem" }} >
             <img src={main_pic} alt="" className="layer2" style={{ width: "36rem", height: "18rem", position: "absolute" }} />
-            <div style={{ backgroundColor: "#D7FCFB", width: "32rem", height: "18rem", position: "absolute", top: "2rem", left: "8rem" }} />
+            <div style={{ backgroundColor: "#D7FCFB", width: "32rem", height: "18rem", position: "absolute", top: "2rem", left: "6rem" }} />
           </div>
         </div>
         {/* Bottom Bar */}
@@ -50,10 +50,10 @@ function Home() {
         </div>
       </div>
       {/* Decoration */}
-      <img className="layer0" src={solid_circle_top_left} style={{position: "absolute", top: "6rem"}} />
-      <img className="layer0" src={circle_top_left} style={{position: "absolute", top: "5rem"}} />
-      <img className="layer0" src={circle_bottom_left} style={{position: "absolute", bottom: "-10.5rem"}} />
-      <img className="layer0" src={circle_bottom_right} style={{position: "absolute", bottom: "-10.5rem", right: 0}} />
+      <img className="layer0" src={solid_circle_top_left} alt="" style={{position: "absolute", top: "6rem"}} />
+      <img className="layer0" src={circle_top_left} alt="" style={{position: "absolute", top: "5rem"}} />
+      <img className="layer0" src={circle_bottom_left} alt="" style={{position: "absolute", bottom: "-10.5rem"}} />
+      <img className="layer0" src={circle_bottom_right} alt="" style={{position: "absolute", bottom: "-10.5rem", right: 0}} />
     </div>
   );
 }
