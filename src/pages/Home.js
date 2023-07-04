@@ -1,6 +1,6 @@
 import './Home.css';
 import { Link } from "react-router-dom";
-import main_pic from "../media/home_main_pic.png";
+import main_pic from "../media/home_main_pic.jpg";
 import second_pic from "../media/home_second_pic.jpg";
 
 import solid_circle_top_left from "../media/solid_circle_top_left.png";
@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="Home">
       {/* Main Content */}
-      <div className="layer1" style={{position: "relative"}} >
+      <div className="layer1" style={{ position: "relative" }} >
         {/* Top Bar */}
         <div style={{ display: "flex", justifyContent: "space-around", padding: "4rem 8%" }} >
           <div style={{ width: "30rem", height: "17rem", display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
@@ -28,7 +28,7 @@ function Home() {
           </div>
         </div>
         {/* Bottom Bar */}
-        <div style={{display: "flex", justifyContent: "space-around", padding: "4rem"}} >
+        <div style={{ display: "flex", justifyContent: "space-around", padding: "4rem" }} >
           <div style={{ position: "relative", width: "32rem", height: "22rem" }}>
             <img className="layer2" src={second_pic} alt="" style={{ width: "30rem", height: "20rem", position: "absolute", top: "2rem" }} />
             <div style={{ backgroundColor: "#D7FCFB", width: "30rem", height: "20rem", position: "absolute", left: "2rem" }} />
@@ -38,11 +38,11 @@ function Home() {
               She offers high quality, patient-focused care in a comfortable and friendly environment. Valez's patients
               can trust that she truly understands their needs and experiences. At Pawtucket Primary Care, your treatment
               is in good hands.</p>
-            <div style={{display: "flex", justifyContent: "space-between"}}>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div className="callButton" ><Link className="callButtonLink" to="/services">See our list of services</Link></div>
               <div className="callButton" ><Link className="callButtonLink" to="/contact">Contact Us</Link></div>
             </div>
-            <div style={{display: "flex", justifyContent: "space-between"}}>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
               <div className="callButton" ><Link className="callButtonLink" to="/clinician">Meet Our Provider</Link></div>
               <div className="callButton" ><Link className="callButtonLink" to="/appointment">Book an Appointment</Link></div>
             </div>
@@ -50,10 +50,10 @@ function Home() {
         </div>
       </div>
       {/* Decoration */}
-      <img className="layer0" src={solid_circle_top_left} alt="" style={{position: "absolute", top: "6rem"}} />
-      <img className="layer0" src={circle_top_left} alt="" style={{position: "absolute", top: "5rem"}} />
-      <img className="layer0" src={circle_bottom_left} alt="" style={{position: "absolute", bottom: "-10.5rem"}} />
-      <img className="layer0" src={circle_bottom_right} alt="" style={{position: "absolute", bottom: "-10.5rem", right: 0}} />
+      <img className="layer0" src={solid_circle_top_left} alt="" style={{ position: "absolute", top: "6rem" }} />
+      <img className="layer0" src={circle_top_left} alt="" style={{ position: "absolute", top: "5rem" }} />
+      <img className="layer0" src={circle_bottom_left} alt="" style={{ position: "absolute", bottom: "-10.5rem" }} />
+      <img className="layer0" src={circle_bottom_right} alt="" style={{ position: "absolute", bottom: "-10.5rem", right: 0 }} />
     </div>
   );
 }

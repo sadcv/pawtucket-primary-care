@@ -39,6 +39,7 @@ function Layout() {
               <Link className='navLink bottomPad' to="/hours">Hours Of Operation</Link>
               <Link className='navLink bottomPad' to="/insurance">Insurance</Link>
               <Link className='navLink bottomPad' to="/appointment">Book Appointment</Link>
+              {/* <Link className='navLink bottomPad' to="/terms">TERMS OF SERVICE</Link> */}
             </div>
           </div>
         </div>
