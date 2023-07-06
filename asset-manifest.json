@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pawtucket-primary-care/static/css/main.1810e399.css",
+    "main.js": "/pawtucket-primary-care/static/js/main.5a63fc0a.js",
+    "static/media/home_second_pic.jpg": "/pawtucket-primary-care/static/media/home_second_pic.700c6dc3675379432ee4.jpg",
+    "static/media/anne_headshot.png": "/pawtucket-primary-care/static/media/anne_headshot.0444f09a00dbd4a2bd9c.png",
+    "static/media/hours.png": "/pawtucket-primary-care/static/media/hours.aeaba9dcbb3251bff22e.png",
+    "static/media/insurance.png": "/pawtucket-primary-care/static/media/insurance.2da9af0433e1e1084709.png",
+    "static/media/tablet.png": "/pawtucket-primary-care/static/media/tablet.a5c1a85f245c9d37269e.png",
+    "static/media/maps.png": "/pawtucket-primary-care/static/media/maps.50cf1c531caae1a25f1b.png",
+    "static/media/home_main_pic.jpg": "/pawtucket-primary-care/static/media/home_main_pic.d3a1b9e388604ec156d8.jpg",
+    "static/media/stomach_pain.jpg": "/pawtucket-primary-care/static/media/stomach_pain.4e9f68fe7075d5ea7484.jpg",
+    "static/media/hands_and_pulse.jpg": "/pawtucket-primary-care/static/media/hands_and_pulse.c2024dbabecc84d63d14.jpg",
+    "static/media/doctor_greeting.jpg": "/pawtucket-primary-care/static/media/doctor_greeting.044ab83eaf0c3d59f874.jpg",
+    "static/media/logo_with_circle.png": "/pawtucket-primary-care/static/media/logo_with_circle.62bb9ee256d38273deaf.png",
+    "index.html": "/pawtucket-primary-care/index.html",
+    "main.1810e399.css.map": "/pawtucket-primary-care/static/css/main.1810e399.css.map",
+    "main.5a63fc0a.js.map": "/pawtucket-primary-care/static/js/main.5a63fc0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1810e399.css",
+    "static/js/main.5a63fc0a.js"
+  ]
+}
