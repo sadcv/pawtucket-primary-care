@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pawtucket-primary-care/static/css/main.1810e399.css",
-    "main.js": "/pawtucket-primary-care/static/js/main.f22fd249.js",
+    "main.js": "/pawtucket-primary-care/static/js/main.e154342c.js",
     "static/media/home_second_pic.jpg": "/pawtucket-primary-care/static/media/home_second_pic.700c6dc3675379432ee4.jpg",
     "static/media/anne_headshot.png": "/pawtucket-primary-care/static/media/anne_headshot.0444f09a00dbd4a2bd9c.png",
     "static/media/hours.png": "/pawtucket-primary-care/static/media/hours.aeaba9dcbb3251bff22e.png",
@@ -15,10 +15,10 @@
     "static/media/logo_with_circle.png": "/pawtucket-primary-care/static/media/logo_with_circle.62bb9ee256d38273deaf.png",
     "index.html": "/pawtucket-primary-care/index.html",
     "main.1810e399.css.map": "/pawtucket-primary-care/static/css/main.1810e399.css.map",
-    "main.f22fd249.js.map": "/pawtucket-primary-care/static/js/main.f22fd249.js.map"
+    "main.e154342c.js.map": "/pawtucket-primary-care/static/js/main.e154342c.js.map"
   },
   "entrypoints": [
     "static/css/main.1810e399.css",
-    "static/js/main.f22fd249.js"
+    "static/js/main.e154342c.js"
   ]
 }
