@@ -28,3 +28,15 @@ h2 {
 .bottomPadSmall {
   margin-bottom: 0.5rem;
 }
+
+.hours_list {
+  display: flex;
+}
+
+.spaceLeft {
+  margin-left: 2rem;
+}
+
+.footer_section {
+  margin: 1rem;
+}

@@ -8,7 +8,7 @@ function Services() {
   return (
     <div className="Services">
       <div>
-        <img src={tablet} style={{ position: "relative", width: "100%" }} />
+        <img src={tablet} alt="" style={{ position: "relative", width: "100%" }} />
         <div style={{textAlign: "center", position: "absolute", top: "25%", width: "100%"}} >
           <h5 style={{color: "white"}} >Our Services</h5>
           <h6 style={{color: "#2C7370"}} >At Pawtucket Primary Care our patients are provided with high quality care.</h6>
@@ -16,7 +16,7 @@ function Services() {
       </div>
       <div style={{display: "flex", justifyContent: "space-between", padding: "4rem 6rem"}} >
         <div className='service_block'>
-          <img src={pulse} className='service_picture' />
+          <img src={pulse} alt="" className='service_picture' />
           <h7 style={{paddingBottom: "1rem", width: "6rem"}} >PRIMARY CARE</h7>
           <div className='service_line' />
           <div style={{display: "flex"}} >
@@ -34,7 +34,7 @@ function Services() {
           </div>
         </div>
         <div className='service_block'>
-          <img src={greeting} className='service_picture' />
+          <img src={greeting} alt="" className='service_picture' />
           <h7 style={{paddingBottom: "1rem", width: "12rem"}} >CHRONIC CARE MANAGEMENT</h7>
           <div className='service_line' />
           <ul style={{width: "12rem"}}>
@@ -46,7 +46,7 @@ function Services() {
           </ul>
         </div>
         <div className='service_block'>
-          <img src={pain} className='service_picture' />
+          <img src={pain} alt="" className='service_picture' />
           <h7 style={{paddingBottom: "1rem", width: "12rem"}} >SAME DAY APPOINTMENTS</h7>
           <div className='service_line' />
           <ul style={{width: "12rem"}}>

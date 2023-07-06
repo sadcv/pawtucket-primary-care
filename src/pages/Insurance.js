@@ -5,7 +5,7 @@ function Insurance() {
   return (
     <div className="Insurance" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <div>
-        <img src={insurance} style={{ position: "relative", width: "100%" }} />
+        <img src={insurance} alt="" style={{ position: "relative", width: "100%" }} />
         <h5 style={{ color: "white", textAlign: "center", position: "absolute", top: "25%", width: "100%" }} >Insurance</h5>
       </div>
       <p className='insurance_text' style={{width: "34%", marginTop: "4rem"}}>We take most forms of insurance.</p>

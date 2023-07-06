@@ -5,7 +5,7 @@ function HoursOfOperation() {
   return (
     <div className="HoursOfOperation" style={{display: "flex", flexDirection: "column", alignItems: "center"}} >
       <div>
-        <img src={hours} style={{ position: "relative", width: "100%" }} />
+        <img src={hours} alt="" style={{ position: "relative", width: "100%" }} />
         <h5 style={{ color: "white", textAlign: "center", position: "absolute", top: "25%", width: "100%" }} >Hours Of Operation</h5>
       </div>
       <div style={{ display: "flex", margin: "4rem" }} >

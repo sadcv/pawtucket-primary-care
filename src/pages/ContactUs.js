@@ -27,7 +27,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe title='google maps embed' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   );
 }

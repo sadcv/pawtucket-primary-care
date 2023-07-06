@@ -19,8 +19,8 @@ function Home() {
             <h3>Pawtucket Primary Care</h3>
             <h4>At Pawtucket Primary Care, we give individualized, person centered care.</h4>
             <p>With personalized health care, patients can experience improved quality of life through preventative care,
-              better management of chronic illnesses, and faster recovery from acute conditions. We work closely with the
-              individual to plan their care and support to meet an individual's unique needs.</p>
+              better management of chronic illnesses, and faster recovery from acute conditions. We work closely with each
+              individual to plan their care and support and to meet their unique needs.</p>
           </div>
           <div style={{ position: "relative", width: "34rem", height: "17rem" }} >
             <img src={main_pic} alt="" className="layer2" style={{ width: "36rem", height: "18rem", position: "absolute" }} />
@@ -52,8 +52,8 @@ function Home() {
       {/* Decoration */}
       <img className="layer0" src={solid_circle_top_left} alt="" style={{ position: "absolute", top: "6rem" }} />
       <img className="layer0" src={circle_top_left} alt="" style={{ position: "absolute", top: "5rem" }} />
-      <img className="layer0" src={circle_bottom_left} alt="" style={{ position: "absolute", bottom: "-10.5rem" }} />
-      <img className="layer0" src={circle_bottom_right} alt="" style={{ position: "absolute", bottom: "-10.5rem", right: 0 }} />
+      <img className="layer0" src={circle_bottom_left} alt="" style={{ position: "absolute", top: "51rem" }} />
+      <img className="layer0" src={circle_bottom_right} alt="" style={{ position: "absolute", top: "42rem", right: 0 }} />
     </div>
   );
 }

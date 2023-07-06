@@ -28,7 +28,7 @@ function OurClinician() {
         </div>
       </div>
       <img className="layer0" src={solid_circle_right} alt="" style={{ position: "absolute", top: "7rem", right: "4rem" }} />
-      <img className="layer0" src={solid_circle_left} alt="" style={{ position: "absolute", bottom: "4.5rem" }} />
+      <img className="layer0" src={solid_circle_left} alt="" style={{ position: "absolute", top: "27rem" }} />
     </div>
   );
 }
