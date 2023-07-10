@@ -20,7 +20,7 @@ function Layout() {
           <Link className='navLink' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
         </div>
         <div className="link-holder">
-          <img className='hamburger_button' src={hamburger} onClick={toggleHamburger} />
+          <img className='hamburger_button' alt="link menu" src={hamburger} onClick={toggleHamburger} />
           <div className='links-big'>
             <Link className='navLink' to="/">Home</Link>
             <Link className='navLink' to="/services">Services</Link>

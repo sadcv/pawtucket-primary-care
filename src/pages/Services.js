@@ -8,13 +8,13 @@ function Services() {
   return (
     <div className="Services">
       <div>
-        <img src={tablet} alt="" style={{ position: "relative", width: "100%" }} />
+        <img src={tablet} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
         <div style={{textAlign: "center", position: "absolute", top: "25%", width: "100%"}} >
           <h5 style={{color: "white"}} >Our Services</h5>
-          <h6 style={{color: "#2C7370"}} >At Pawtucket Primary Care our patients are provided with high quality care.</h6>
+          <h6 style={{color: "#2C7370", padding: "0rem 1rem 0rem 1rem"}} >At Pawtucket Primary Care our patients are provided with high quality care.</h6>
         </div>
       </div>
-      <div style={{display: "flex", justifyContent: "space-between", padding: "4rem 6rem"}} >
+      <div className='service_holder' style={{display: "flex", flexWrap: "wrap", padding: "4rem 6rem"}} >
         <div className='service_block'>
           <img src={pulse} alt="" className='service_picture' />
           <h7 style={{paddingBottom: "1rem", width: "6rem"}} >PRIMARY CARE</h7>
@@ -57,6 +57,21 @@ function Services() {
           </ul>
         </div>
       </div>
+
+      <style jsx>{`
+        .service_holder {
+          justify-content: space-between;  
+        }
+        
+
+        @media (max-width: 1180px) {
+          .service_holder {
+            justify-content: space-around;
+          }
+        }
+
+      `}</style>
+
     </div>
   );
 }
