@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pawtucket-primary-care/static/css/main.16c104e2.css",
-    "main.js": "/pawtucket-primary-care/static/js/main.1e925fc4.js",
-    "static/media/home_second_pic.jpg": "/pawtucket-primary-care/static/media/home_second_pic.700c6dc3675379432ee4.jpg",
-    "static/media/anne_headshot.png": "/pawtucket-primary-care/static/media/anne_headshot.0444f09a00dbd4a2bd9c.png",
-    "static/media/hours.png": "/pawtucket-primary-care/static/media/hours.aeaba9dcbb3251bff22e.png",
-    "static/media/insurance.png": "/pawtucket-primary-care/static/media/insurance.2da9af0433e1e1084709.png",
-    "static/media/tablet.png": "/pawtucket-primary-care/static/media/tablet.a5c1a85f245c9d37269e.png",
-    "static/media/maps.png": "/pawtucket-primary-care/static/media/maps.50cf1c531caae1a25f1b.png",
-    "static/media/home_main_pic.jpg": "/pawtucket-primary-care/static/media/home_main_pic.d3a1b9e388604ec156d8.jpg",
-    "static/media/stomach_pain.jpg": "/pawtucket-primary-care/static/media/stomach_pain.4e9f68fe7075d5ea7484.jpg",
-    "static/media/hands_and_pulse.jpg": "/pawtucket-primary-care/static/media/hands_and_pulse.c2024dbabecc84d63d14.jpg",
-    "static/media/doctor_greeting.jpg": "/pawtucket-primary-care/static/media/doctor_greeting.044ab83eaf0c3d59f874.jpg",
-    "static/media/logo_with_circle.png": "/pawtucket-primary-care/static/media/logo_with_circle.62bb9ee256d38273deaf.png",
-    "static/media/hamburger_menu.png": "/pawtucket-primary-care/static/media/hamburger_menu.ef916d118bdf469bf5fb.png",
-    "index.html": "/pawtucket-primary-care/index.html",
-    "main.16c104e2.css.map": "/pawtucket-primary-care/static/css/main.16c104e2.css.map",
-    "main.1e925fc4.js.map": "/pawtucket-primary-care/static/js/main.1e925fc4.js.map"
+    "main.css": "/static/css/main.16c104e2.css",
+    "main.js": "/static/js/main.4fb033dd.js",
+    "static/media/home_second_pic.jpg": "/static/media/home_second_pic.700c6dc3675379432ee4.jpg",
+    "static/media/anne_headshot.png": "/static/media/anne_headshot.0444f09a00dbd4a2bd9c.png",
+    "static/media/hours.png": "/static/media/hours.aeaba9dcbb3251bff22e.png",
+    "static/media/insurance.png": "/static/media/insurance.2da9af0433e1e1084709.png",
+    "static/media/tablet.png": "/static/media/tablet.a5c1a85f245c9d37269e.png",
+    "static/media/maps.png": "/static/media/maps.50cf1c531caae1a25f1b.png",
+    "static/media/home_main_pic.jpg": "/static/media/home_main_pic.d3a1b9e388604ec156d8.jpg",
+    "static/media/stomach_pain.jpg": "/static/media/stomach_pain.4e9f68fe7075d5ea7484.jpg",
+    "static/media/hands_and_pulse.jpg": "/static/media/hands_and_pulse.c2024dbabecc84d63d14.jpg",
+    "static/media/doctor_greeting.jpg": "/static/media/doctor_greeting.044ab83eaf0c3d59f874.jpg",
+    "static/media/logo_with_circle.png": "/static/media/logo_with_circle.62bb9ee256d38273deaf.png",
+    "static/media/hamburger_menu.png": "/static/media/hamburger_menu.ef916d118bdf469bf5fb.png",
+    "index.html": "/index.html",
+    "main.16c104e2.css.map": "/static/css/main.16c104e2.css.map",
+    "main.4fb033dd.js.map": "/static/js/main.4fb033dd.js.map"
   },
   "entrypoints": [
     "static/css/main.16c104e2.css",
-    "static/js/main.1e925fc4.js"
+    "static/js/main.4fb033dd.js"
   ]
 }
