@@ -1,7 +1,7 @@
 {
   "name": "ppc_website",
   "version": "0.1.0",
-  "homepage": "https://sadcv.github.io/pawtucket-primary-care",
+  "homepage": "https://sadcv.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
