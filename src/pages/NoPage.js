@@ -9,7 +9,7 @@ function NoPage() {
       <img style={{ width: "8rem", height: "8rem", border: "5px solid #2C7370", borderRadius: "8rem" }} src={logo} alt="Pawtucket Primary Care logo" />
       <p style={{fontSize: "32px", fontWeight: "600", color: "#2C7370", marginBottom: "2rem"}}>Pawtucket Primary Care</p>
       {/* <p style={{fontSize: "32px"}}>your local primary care office.</p> */}
-      <p style={{fontSize: "24px", marginBottom: "1rem"}}>We're sorry, the sub-page you are looking for does not seem to exist.</p>
+      <p style={{fontSize: "24px", marginBottom: "1rem", textAlign: "center", padding: "0rem 1rem 0rem 1rem"}}>We're sorry, the sub-page you are looking for does not seem to exist.</p>
       <Link style={{fontSize: "24px"}} to="/" >Back To Home</Link>
     </div>
   );
