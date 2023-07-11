@@ -4,9 +4,9 @@ import maps from "../media/maps.png";
 function ContactUs() {
   return (
     <div className="ContactUs" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <div>
+      <div style={{position: "relative"}}>
         <img src={maps} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover"  }} />
-        <h5 style={{ color: "white", textAlign: "center", position: "absolute", top: "25%", width: "100%" }} >Contact Us</h5>
+        <h5 style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Contact Us</h5>
       </div>
       <div style={{ margin: "2rem" }} >
         <div style={{ marginBottom: "2rem" }}>

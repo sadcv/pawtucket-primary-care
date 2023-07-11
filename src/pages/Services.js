@@ -7,7 +7,7 @@ import pain from "../media/stomach_pain.jpg";
 function Services() {
   return (
     <div className="Services">
-      <div>
+      <div style={{position: "relative"}}>
         <img src={tablet} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
         <div style={{textAlign: "center", position: "absolute", top: "25%", width: "100%"}} >
           <h5 style={{color: "white"}} >Our Services</h5>

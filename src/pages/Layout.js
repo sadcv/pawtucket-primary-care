@@ -17,17 +17,17 @@ function Layout() {
       <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex", alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
           <Link className='navLink' to="/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></Link>
-          <Link className='navLink' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
+          <Link className='navLink title' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
         </div>
         <div className="link-holder">
           <img className='hamburger_button' alt="link menu" src={hamburger} onClick={toggleHamburger} />
           <div className='links-big'>
-            <Link className='navLink' to="/">Home</Link>
-            <Link className='navLink' to="/services">Services</Link>
-            <Link className='navLink' to="/clinician">Our Clinician</Link>
-            <Link className='navLink' to="/contact">Contact Us</Link>
-            <Link className='navLink' to="/hours">Hours Of Operation</Link>
-            <Link className='navLink' to="/insurance">Insurance</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/">Home</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/services">Services</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/clinician">Our Clinician</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/contact">Contact Us</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/hours">Hours Of Operation</Link>
+            <Link className='navLink' onClick={toggleHamburger} to="/insurance">Insurance</Link>
             <Link className='navLink' style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} to="/appointment">Book Appointment</Link>
           </div>
         </div>
@@ -67,7 +67,8 @@ function Layout() {
             flex-direction: column;
             // flex-wrap: wrap;
             // height: 5rem;
-            width: 14rem;
+            width: auto;
+            text-align: center;
           }
 
           .hamburger_button {
@@ -83,6 +84,10 @@ function Layout() {
 
           .navbar {
             height: ${hamburgerOpen ? '15rem' : '5rem'};
+          }
+
+          .title {
+            width: 50%;
           }
         }
 
