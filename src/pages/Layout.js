@@ -11,10 +11,14 @@ function Layout() {
     setHamburgerOpen(!hamburgerOpen)
   }
 
+  const closeHamburger = () => {
+    setHamburgerOpen(false)
+  }
+
   return (
     <div className="Layout">
       {/* Header */}
-      <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex", alignItems: "center" }}>
+      <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex"}}>
         <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
           <Link className='navLink' to="/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></Link>
           <Link className='navLink title' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
@@ -22,13 +26,13 @@ function Layout() {
         <div className="link-holder">
           <img className='hamburger_button' alt="link menu" src={hamburger} onClick={toggleHamburger} />
           <div className='links-big'>
-            <Link className='navLink' onClick={toggleHamburger} to="/">Home</Link>
-            <Link className='navLink' onClick={toggleHamburger} to="/services">Services</Link>
-            <Link className='navLink' onClick={toggleHamburger} to="/clinician">Our Clinician</Link>
-            <Link className='navLink' onClick={toggleHamburger} to="/contact">Contact Us</Link>
-            <Link className='navLink' onClick={toggleHamburger} to="/hours">Hours Of Operation</Link>
-            <Link className='navLink' onClick={toggleHamburger} to="/insurance">Insurance</Link>
-            <Link className='navLink' style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} to="/appointment">Book Appointment</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/">Home</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/services">Services</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/clinician">Our Clinician</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/contact">Contact Us</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/hours">Hours Of Operation</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} to="/insurance">Insurance</Link>
+            <Link className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} to="/appointment">Book Appointment</Link>
           </div>
         </div>
       </nav>
@@ -37,6 +41,7 @@ function Layout() {
 
         .navbar {
           height: 5rem;
+          align-items: center;
         }
 
         .hamburger_button {
@@ -65,6 +70,7 @@ function Layout() {
           .links-big {
             display: ${hamburgerOpen ? 'flex' : 'none'};
             flex-direction: column;
+            margin-top: 10px;
             // flex-wrap: wrap;
             // height: 5rem;
             width: auto;
@@ -83,11 +89,17 @@ function Layout() {
           }
 
           .navbar {
-            height: ${hamburgerOpen ? '15rem' : '5rem'};
+            height: ${hamburgerOpen ? '20rem' : '3rem'};
+            align-items: flex-start;
+            padding: 2rem 0rem;
           }
 
           .title {
             width: 50%;
+          }
+
+          .topLink {
+            margin-top: 10px;
           }
         }
 
