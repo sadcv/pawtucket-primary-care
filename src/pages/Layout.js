@@ -15,7 +15,7 @@ function Layout() {
     <div className="Layout">
       {/* Header */}
       <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex", alignItems: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "8%" }} >
+        <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
           <Link className='navLink' to="/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></Link>
           <Link className='navLink' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
         </div>
@@ -56,9 +56,9 @@ function Layout() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 55%;
+          width: 60%;
           position: absolute;
-          right: 6%;
+          right: 4%;
         }
 
         @media (max-width: 1250px) {
