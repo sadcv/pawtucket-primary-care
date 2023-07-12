@@ -1,12 +1,39 @@
 import './ContactUs.css';
+import Helmet from "react-helmet";
 import maps from "../media/maps.png";
 
 function ContactUs() {
+
   return (
     <div className="ContactUs" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <div style={{position: "relative"}}>
-        <img src={maps} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover"  }} />
-        <h5 style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Contact Us</h5>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us - Pawtucket Primary Care</title>
+        <meta name="description" content="Get in contact with us at Pawtucket Primary Care through email, phone, fax, or in-person. Our delightful staff is always happy to hear from you." />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "MedicalClinic",
+            "name": "Pawtucket Primary Care",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US",
+              "addressLocality": "Pawtucket",
+              "addressRegion": "RI",
+              "postalCode": "02860",
+              "streetAddress": "126 Prospect Street Suite 201"
+            },
+            "faxNumber": "(401) 262-5501",
+            "logo": "https://pawtucketprimarycare.com/logo.png",
+            "telephone": "(401) 244-5900",
+            "email": "pawtucketprimarycare.com",
+            "url": "pawtucketprimarycare.com"
+          })}
+        </script>
+      </Helmet>
+      <div style={{ position: "relative" }}>
+        <img src={maps} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
+        <h1 className='page_header' style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Contact Us</h1>
       </div>
       <div style={{ margin: "2rem" }} >
         <div style={{ marginBottom: "2rem" }}>
@@ -27,7 +54,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <iframe title='google maps embed' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe title='Embedded Google Maps pointing to: 126 Prospect St Suite 201, Pawtucket RI, 02860' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   );
 }

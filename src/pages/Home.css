@@ -1,10 +1,10 @@
-h3 {
+.home_title {
   font-size: 40px;
   font-weight: 300;
   color: #2C7370;
 }
 
-h4 {
+.home_tagline {
   font-size: 20px;
   font-weight: 200;
   color: #2C7370;

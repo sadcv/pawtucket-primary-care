@@ -5,6 +5,7 @@ import logo from "../media/logo_with_circle.png"
 import hamburger from "../media/hamburger_menu.png"
 
 function Layout() {
+  
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
   const toggleHamburger = () => {

@@ -1,14 +1,10 @@
-h5 {
-  font-size: 48px;
-  font-weight: 400;
-}
-
-h6 {
+.services_tagline {
   font-size: 20px;
 }
 
-h7 {
+.services_section_header {
   font-size: 24px;
+  font-weight: 400;
   color: #2C7370;
   text-align: center;
 }

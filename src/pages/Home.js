@@ -1,4 +1,5 @@
 import './Home.css';
+import Helmet from "react-helmet";
 import { Link } from "react-router-dom";
 import main_pic from "../media/home_main_pic.jpg";
 import second_pic from "../media/home_second_pic.jpg";
@@ -11,13 +12,58 @@ import circle_bottom_right from "../media/circle_bottom_right.png";
 function Home() {
   return (
     <div className="Home">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Pawtucket Primary Care - Get Personalized Healthcare Near You</title>
+        <meta name="description" content="Pawtucket Primary Care is a newly founded local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "MedicalClinic",
+            "medicalSpecialty": "PrimaryCare",
+            "openingHours": [
+              "Mo-Fr 8:00-16:30",
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US",
+              "addressLocality": "Pawtucket",
+              "addressRegion": "RI",
+              "postalCode": "02860",
+              "streetAddress": "126 Prospect Street Suite 201"
+            },
+            "faxNumber": "(401) 262-5501",
+            "logo": "https://pawtucketprimarycare.com/logo.png",
+            "slogan": "At Pawtucket Primary Care, we give individualized, person centered care.",
+            "telephone": "(401) 244-5900",
+            "isAcceptingNewPatients": "true",
+            "email": "pawtucketprimarycare.com",
+            "founder": {
+              "@type": "Person",
+              "givenName": "Anne",
+              "familyName": "Valez",
+              "gender": "Female",
+              "jobTitle": "Nurse Practitioner",
+              "memberOf": {
+                "@type": "Organization",
+                "name": "Pawtucket Primary Care",
+                "url": "pawtucketprimarycare.com"
+              }
+            },
+            "description": "Pawtucket Primary Care is a local, independently owned medical center that provides internal medicine and opioid treatment. Our licensed health professional, Anne Valez, maintains and restores our client's health and wellbeing through the practice of medicine. Our primary care clinician provides individualized, person-centered care to all of our clients.",
+            "keywords": "anne, valez, nurse, practitioner, primary, care, clinic, local, pawtucket, vaccine, physical, healthcare, provider",
+            "name": "Pawtucket Primary Care",
+            "url": "pawtucketprimarycare.com"
+          })}
+        </script>
+      </Helmet>
       {/* Main Content */}
       <div className="layer1" style={{ position: "relative" }} >
         {/* Top Bar */}
         <div className='top_bar' style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }} >
           <div className='top_text layer1' style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
-            <h3>Pawtucket Primary Care</h3>
-            <h4>At Pawtucket Primary Care, we give individualized, person centered care.</h4>
+            <h1 className='home_title'>Pawtucket Primary Care</h1>
+            <h2 className='home_tagline'>At Pawtucket Primary Care, we give individualized, person centered care.</h2>
             <p>With personalized health care, patients can experience improved quality of life through preventative care,
               better management of chronic illnesses, and faster recovery from acute conditions. We work closely with each
               individual to plan their care and support and to meet their unique needs.</p>
@@ -51,7 +97,7 @@ function Home() {
         {/* Decoration */}
         <img className="layer0" src={solid_circle_top_left} alt="" style={{ position: "absolute", top: "0" }} />
         <img className="layer0" src={circle_top_left} alt="" style={{ position: "absolute", top: "0" }} />
-        <img className="layer0 touch_floor" src={circle_bottom_left} alt="" style={{ position: "absolute"}} />
+        <img className="layer0 touch_floor" src={circle_bottom_left} alt="" style={{ position: "absolute" }} />
         <img className="layer0 touch_floor" src={circle_bottom_right} alt="" style={{ position: "absolute", right: 0 }} />
       </div>
 
