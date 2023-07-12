@@ -12,6 +12,7 @@ function Services() {
         <meta charSet="utf-8" />
         <title>Services - Pawtucket Primary Care</title>
         <meta name="description" content="We offer a variety of services here at Pawtucket Primary Care ranging from primary to chronic care. We offer annual checkups, vaccinations, opioid addition treatment, endocrine disorder treatment, and much more. Visit this page to see our full offering." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/services" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org/",

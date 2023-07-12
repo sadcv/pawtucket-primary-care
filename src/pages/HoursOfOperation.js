@@ -9,6 +9,7 @@ function HoursOfOperation() {
         <meta charSet="utf-8" />
         <title>Hours of Operation - Pawtucket Primary Care</title>
         <meta name="description" content="Consult our hours of operation at Pawtucket Primary Care. We are open from 8 AM to 4:30 PM every weekday providing great healthcare for our visiting patients." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/hours" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org/",

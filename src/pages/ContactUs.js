@@ -10,6 +10,7 @@ function ContactUs() {
         <meta charSet="utf-8" />
         <title>Contact Us - Pawtucket Primary Care</title>
         <meta name="description" content="Get in contact with us at Pawtucket Primary Care through email, phone, fax, or in-person. Our delightful staff is always happy to hear from you." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/contact" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org/",

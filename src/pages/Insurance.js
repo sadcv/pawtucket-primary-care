@@ -9,6 +9,7 @@ function Insurance() {
         <meta charSet="utf-8" />
         <title>Supported Insurance - Pawtucket Primary Care</title>
         <meta name="description" content="We take most forms of insurance at Pawtucket Primary Care. Check for yours on our website." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/insurance" />
       </Helmet>
       <div style={{ position: "relative" }}>
         <img src={insurance} alt="" style={{ position: "relative", width: "100%", height: "21rem", objectFit: "cover" }} />

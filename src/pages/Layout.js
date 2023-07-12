@@ -1,5 +1,5 @@
 import './Layout.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { useState } from 'react';
 import logo from "../media/logo_with_circle.png"
 import hamburger from "../media/hamburger_menu.png"
@@ -21,19 +21,19 @@ function Layout() {
       {/* Header */}
       <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex"}}>
         <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
-          <Link className='navLink' to="/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></Link>
-          <Link className='navLink title' to="/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></Link>
+          <a className='navLink' href="/#/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></a>
+          <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a>
         </div>
         <div className="link-holder">
           <img className='hamburger_button' alt="link menu" src={hamburger} onClick={toggleHamburger} />
           <div className='links-big'>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/">Home</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/services">Services</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/clinician">Our Clinician</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/contact">Contact Us</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/hours">Hours Of Operation</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} to="/insurance">Insurance</Link>
-            <Link className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} to="/appointment">Book Appointment</Link>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/">Home</a>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/services">Services</a>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/clinician">Our Clinician</a>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/contact">Contact Us</a>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/hours">Hours Of Operation</a>
+            <a className='navLink topLink' onClick={closeHamburger} href="/#/insurance">Insurance</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} href="/#/appointment">Book Appointment</a>
           </div>
         </div>
       </nav>
@@ -114,16 +114,16 @@ function Layout() {
           <h2 className='bottomPad'>LINKS</h2>
           <div style={{ display: "flex" }} >
             <div style={{ display: "flex", flexDirection: "column" }} >
-              <Link className='navLink bottomPad' to="/">Home</Link>
-              <Link className='navLink bottomPad' to="/services">Services</Link>
-              <Link className='navLink bottomPad' to="/clinician">Our Clinician</Link>
-              <Link className='navLink bottomPad' to="/contact">Contact Us</Link>
+              <a className='navLink bottomPad' href="/#/">Home</a>
+              <a className='navLink bottomPad' href="/#/services">Services</a>
+              <a className='navLink bottomPad' href="/#/clinician">Our Clinician</a>
+              <a className='navLink bottomPad' href="/#/contact">Contact Us</a>
             </div>
             <div style={{ display: "flex", flexDirection: "column", marginLeft: "2rem" }} >
-              <Link className='navLink bottomPad' to="/hours">Hours Of Operation</Link>
-              <Link className='navLink bottomPad' to="/insurance">Insurance</Link>
-              <Link className='navLink bottomPad' to="/appointment">Book Appointment</Link>
-              {/* <Link className='navLink bottomPad' to="/terms">TERMS OF SERVICE</Link> */}
+              <a className='navLink bottomPad' href="/#/hours">Hours Of Operation</a>
+              <a className='navLink bottomPad' href="/#/insurance">Insurance</a>
+              <a className='navLink bottomPad' href="/#/appointment">Book Appointment</a>
+              {/* <a className='navLink bottomPad' href="/#/terms">TERMS OF SERVICE</a> */}
             </div>
           </div>
         </div>

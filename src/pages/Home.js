@@ -1,6 +1,5 @@
 import './Home.css';
 import Helmet from "react-helmet";
-import { Link } from "react-router-dom";
 import main_pic from "../media/home_main_pic.jpg";
 import second_pic from "../media/home_second_pic.jpg";
 
@@ -16,6 +15,7 @@ function Home() {
         <meta charSet="utf-8" />
         <title>Pawtucket Primary Care - Get Personalized Healthcare Near You</title>
         <meta name="description" content="Pawtucket Primary Care is a newly founded local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org/",
@@ -85,12 +85,12 @@ function Home() {
               can trust that she truly understands their needs and experiences. At Pawtucket Primary Care, your treatment
               is in good hands.</p>
             <div className='buttonHolder' >
-              <div className="callButton layer1" ><Link className="callButtonLink" to="/services">See our list of services</Link></div>
-              <div className="callButton layer1" ><Link className="callButtonLink" to="/contact">Contact Us</Link></div>
+              <div className="callButton layer1" ><a className="callButtonLink" href="/#/services">See our list of services</a></div>
+              <div className="callButton layer1" ><a className="callButtonLink" href="/#/contact">Contact Us</a></div>
             </div>
             <div className='buttonHolder' >
-              <div className="callButton layer1" ><Link className="callButtonLink" to="/clinician">Meet Our Provider</Link></div>
-              <div className="callButton layer1" ><Link className="callButtonLink" to="/appointment">Book an Appointment</Link></div>
+              <div className="callButton layer1" ><a className="callButtonLink" href="/#/clinician">Meet Our Provider</a></div>
+              <div className="callButton layer1" ><a className="callButtonLink" href="/#/appointment">Book an Appointment</a></div>
             </div>
           </div>
         </div>

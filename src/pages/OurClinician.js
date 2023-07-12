@@ -12,6 +12,7 @@ function OurClinician() {
           <meta charSet="utf-8" />
           <title>Meet Our Clinician - Pawtucket Primary Care</title>
           <meta name="description" content="Our primary care clinician, Anne Valez NP, is a local, experienced provider well-known for her empathetic, individualized approach to healthcare. Visit this page to find out more about her specialties and certifications." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/clinician" />
           <script type="application/ld+json">
             {JSON.stringify({
               "@context": "https://schema.org/",

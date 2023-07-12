@@ -9,6 +9,7 @@ function BookAppointment() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Book Appointment - Pawtucket Primary Care</title>
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/appointment" />
         <meta name="description" content="Visit our website to book an appointment online quickly and easily with Pawtucket Primary Care or call (401) 244-5900." />
       </Helmet>
       <p style={{ fontSize: "24px", marginBottom: "1rem", width: "80%", textAlign: "center" }}>Thank you for your interest in booking an appointment with</p>
