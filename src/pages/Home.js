@@ -15,7 +15,7 @@ function Home() {
         <meta charSet="utf-8" />
         <title>Pawtucket Primary Care - Get Personalized Healthcare Near You</title>
         <meta name="description" content="Pawtucket Primary Care is a newly founded local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
-        <link rel="canonical" href="http://pawtucketprimarycare.com/#/" />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org/",
