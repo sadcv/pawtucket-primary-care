@@ -70,7 +70,7 @@ function Layout() {
           right: 4%;
         }
 
-        @media (max-width: 1250px) {
+        @media (max-width: 1000px) {
           .links-big {
             display: ${hamburgerOpen ? 'flex' : 'none'};
             flex-direction: column;
