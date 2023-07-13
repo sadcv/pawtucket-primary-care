@@ -14,6 +14,31 @@ h2 {
   font-weight: 600;
 }
 
+ul {
+  list-style-type:circle;
+}
+
+li {
+  margin-bottom: .2rem;
+  font-weight: 200;
+}
+
+.page_header_img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.page_header {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 400;
+}
+
 .navLink {
   font-size: 16px;
   font-weight: 400;

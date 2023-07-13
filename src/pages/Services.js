@@ -54,21 +54,19 @@ function Services() {
               {
                 "@type": "MedicalTest",
                 "name": "Test for cold, flu, and infection"
-              } ]
+              }]
           })}
         </script>
       </Helmet>
       <div style={{ position: "relative" }}>
-        <img src={tablet} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
-        <div style={{ textAlign: "center", position: "absolute", top: "25%", width: "100%" }} >
-          <h1 className='page_header' style={{ color: "white" }} >Our Services</h1>
-          <h2 className='services_tagline' style={{ color: "#2C7370", padding: "0rem 1rem 0rem 1rem" }} >At Pawtucket Primary Care our patients are provided with high quality care.</h2>
-        </div>
+        <img src={tablet} alt="" className='page_header_img'/>
+        <h1 className='page_header' >Our Services</h1>
+        <h2 className='services_tagline' style={{ color: "#2C7370", textAlign: "center", position: "absolute", top: "52%", width: "100%" }} >At Pawtucket Primary Care our patients are provided with high quality care.</h2>
       </div>
       <div className='service_holder' style={{ display: "flex", flexWrap: "wrap", padding: "4rem 6rem" }} >
         <div className='service_block'>
           <img src={pulse} alt="" className='service_picture' />
-          <h3 className='services_section_header' style={{ paddingBottom: "1rem", width: "6rem" }} >PRIMARY CARE</h3>
+          <h3 className='services_section_header' style={{width: "6rem" }} >PRIMARY CARE</h3>
           <div className='service_line' />
           <div style={{ display: "flex" }} >
             <ul style={{ width: "8rem" }} >
@@ -86,7 +84,7 @@ function Services() {
         </div>
         <div className='service_block'>
           <img src={greeting} alt="" className='service_picture' />
-          <h3 className='services_section_header' style={{ paddingBottom: "1rem", width: "12rem" }} >CHRONIC CARE MANAGEMENT</h3>
+          <h3 className='services_section_header' >CHRONIC CARE MANAGEMENT</h3>
           <div className='service_line' />
           <ul style={{ width: "12rem" }}>
             <li>Diabetes</li>
@@ -98,7 +96,7 @@ function Services() {
         </div>
         <div className='service_block'>
           <img src={pain} alt="" className='service_picture' />
-          <h3 className='services_section_header' style={{ paddingBottom: "1rem", width: "12rem" }} >SAME DAY APPOINTMENTS</h3>
+          <h3 className='services_section_header' >SAME DAY APPOINTMENTS</h3>
           <div className='service_line' />
           <ul style={{ width: "12rem" }}>
             <li>Common cold</li>
@@ -108,21 +106,6 @@ function Services() {
           </ul>
         </div>
       </div>
-
-      <style jsx>{`
-        .service_holder {
-          justify-content: space-between;  
-        }
-        
-
-        @media (max-width: 1180px) {
-          .service_holder {
-            justify-content: space-around;
-          }
-        }
-
-      `}</style>
-
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import './ContactUs.css';
 import Helmet from "react-helmet";
 import maps from "../media/maps.png";
 
@@ -33,29 +32,54 @@ function ContactUs() {
         </script>
       </Helmet>
       <div style={{ position: "relative" }}>
-        <img src={maps} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
-        <h1 className='page_header' style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Contact Us</h1>
+        <img src={maps} alt="" className='page_header_img'/>
+        <h1 className='page_header' >Contact Us</h1>
       </div>
-      <div style={{ margin: "2rem" }} >
+      <div style={{ margin: "4rem 0rem" }} >
         <div style={{ marginBottom: "2rem" }}>
           <p className='spaceBottom contactTitle' >Email</p>
           <p className='spaceBottom contactText' >pawtucket.primary.care@gmail.com</p>
         </div>
-        <div style={{ display: "flex" }}>
-          <div>
+        <div className="contact_holder">
+          <div style={{ marginRight: "2rem" }}>
             <p className='spaceBottom contactTitle' >Address</p>
             <p className='spaceBottom contactText' >126 Prospect St, Suite 201</p>
             <p className='spaceBottom contactText' >Pawtucket, RI</p>
             <p className='spaceBottom contactText' >02860</p>
           </div>
-          <div style={{ marginLeft: "2rem" }}>
+          <div>
             <p className='spaceBottom contactTitle' >Contact</p>
             <p className='spaceBottom contactText' >Call: (401) 244-5900</p>
             <p className='spaceBottom contactText' >Fax: (401) 262-5501</p>
           </div>
         </div>
       </div>
-      <iframe title='Embedded Google Maps pointing to: 126 Prospect St Suite 201, Pawtucket RI, 02860' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe title='Embedded Google Maps pointing to: 126 Prospect St Suite 201, Pawtucket RI, 02860' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.2228336860817!2d-71.38095192398522!3d41.87166996581684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e45caa7609322d%3A0xbd1f669f854718b9!2s126%20Prospect%20St%20STE%20201%2C%20Pawtucket%2C%20RI%2002860!5e1!3m2!1sen!2sus!4v1688488547526!5m2!1sen!2sus" width="99%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <style>{`
+
+        .contact_holder {
+          display: flex;
+        }
+
+        .spaceBottom {
+          margin-bottom: 1rem;
+          font-size: 20px;
+        }
+
+        .contactTitle {
+          font-weight: 600;
+        }
+
+        .contactText {
+          font-weight: 300;
+        }
+
+        @media (max-width: 460px) {
+          .contact_holder {
+            flex-direction: column;
+          }
+        }
+      `}</style>
     </div>
   );
 }

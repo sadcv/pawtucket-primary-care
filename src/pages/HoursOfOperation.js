@@ -1,4 +1,3 @@
-import './HoursOfOperation.css';
 import Helmet from "react-helmet";
 import hours from "../media/hours.png";
 
@@ -22,8 +21,8 @@ function HoursOfOperation() {
         </script>
       </Helmet>
       <div style={{ position: "relative" }}>
-        <img src={hours} alt="" style={{ position: "relative", width: "100%", height: "20rem", objectFit: "cover" }} />
-        <h1 className='page_header' style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Hours Of Operation</h1>
+        <img src={hours} alt="" className='page_header_img' />
+        <h1 className='page_header'>Hours Of Operation</h1>
       </div>
       <div style={{ display: "flex", margin: "4rem" }} >
         <div>
@@ -41,6 +40,19 @@ function HoursOfOperation() {
           <p className='bottomPadHours'>8:00 am - 4:30 pm</p>
         </div>
       </div>
+      <style>{`
+        .bottomPadHours {
+          margin-bottom: 2rem;
+          font-size: 20px;
+        }
+        
+        @media (max-width: 420px) {
+          .bottomPadHours {
+            width: 8rem;
+            height: 4rem;
+          }
+        }
+        `}</style>
     </div>
   );
 }

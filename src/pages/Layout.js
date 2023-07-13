@@ -20,7 +20,7 @@ function Layout() {
     <div className="Layout">
       {/* Header */}
       <nav className='navbar'>
-        <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
+        <div style={{ display: "flex", alignItems: "center", marginLeft: "4%" }} >
           <a className='navLink' href="/#/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></a>
           <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a>
         </div>
@@ -75,15 +75,12 @@ function Layout() {
             display: ${hamburgerOpen ? 'flex' : 'none'};
             flex-direction: column;
             margin-top: 10px;
-            // flex-wrap: wrap;
-            // height: 5rem;
             width: auto;
             text-align: center;
           }
 
           .hamburger_button {
             display: flex;
-            // width: ${hamburgerOpen ? '10rem' : '2rem'};
           }
 
           .link-holder {

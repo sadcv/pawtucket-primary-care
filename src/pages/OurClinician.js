@@ -1,4 +1,3 @@
-import './OurClinician.css';
 import Helmet from "react-helmet";
 import nurse_picture from "../media/anne_headshot.png";
 import solid_circle_right from "../media/clinician_solid_circle_right.png";
@@ -56,7 +55,16 @@ function OurClinician() {
       </div>
 
 
-      <style jsx>{`
+      <style >{`
+
+        .clinician-mid_print {
+          font-size: 16px;
+          margin-bottom: .2rem;
+        }
+        .clinician-fine_print {
+          font-size: 14px;
+          margin-bottom: .1rem;
+        }
 
         .alt_portrait {
           display: none;

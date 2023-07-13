@@ -1,4 +1,3 @@
-import './Insurance.css';
 import Helmet from "react-helmet";
 import insurance from "../media/insurance.png";
 
@@ -12,8 +11,8 @@ function Insurance() {
         <link rel="canonical" href="http://pawtucketprimarycare.com/#/insurance" />
       </Helmet>
       <div style={{ position: "relative" }}>
-        <img src={insurance} alt="" style={{ position: "relative", width: "100%", height: "21rem", objectFit: "cover" }} />
-        <h1 className='page_header' style={{ color: "white", textAlign: "center", position: "absolute", top: "30%", width: "100%" }} >Insurance</h1>
+        <img src={insurance} alt="" className='page_header_img' style={{height: "21rem"}} />
+        <h1 className='page_header'>Insurance</h1>
       </div>
       <div style={{ display: "flex", flexDirection: "column", padding: "4rem 4rem" }} >
         <p className='insurance_text'>We take most forms of insurance.</p>
@@ -32,6 +31,13 @@ function Insurance() {
           </ul>
         </div>
       </div>
+
+      <style>{`
+        .insurance_text {
+          font-size: 20px;
+          margin-bottom: 1rem;
+        }`}
+      </style>
     </div>
   );
 }

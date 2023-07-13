@@ -1,4 +1,3 @@
-import './BookAppointment.css'
 import Helmet from "react-helmet";
 import logo from "../media/logo_with_circle.png"
 

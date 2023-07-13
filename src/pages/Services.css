@@ -7,15 +7,8 @@
   font-weight: 400;
   color: #2C7370;
   text-align: center;
-}
-
-ul {
-  list-style-type:circle;
-}
-
-li {
-  margin-bottom: .2rem;
-  font-weight: 200;
+  padding-bottom: 1rem;
+  width: 12rem;
 }
 
 .service_picture {
@@ -39,6 +32,17 @@ li {
   border-radius: 15px;
   width: 30%;
   min-width: 20rem;
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 2rem 0rem;
   margin-bottom: 2rem;
+}
+
+.service_holder {
+  justify-content: space-between;  
+}
+
+
+@media (max-width: 1180px) {
+  .service_holder {
+    justify-content: space-around;
+  }
 }
