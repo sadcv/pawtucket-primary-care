@@ -25,7 +25,11 @@ function Layout() {
           <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a>
         </div>
         <div className="link-holder">
-          <img className='hamburger_button' alt="link menu" src={hamburger} onClick={toggleHamburger} />
+          <div className='hamburger_button' style={{width: "8rem"}} onClick={toggleHamburger} >
+            <img alt="link menu" style={{width: "2rem", height: "2rem"}} src={hamburger}/>
+            <p style={{marginLeft: "10px", marginTop: "5px"}}>Menu</p>
+          </div>
+          
           <div className='links-big'>
             <a className='navLink topLink' onClick={closeHamburger} href="/#/">Home</a>
             <a className='navLink topLink' onClick={closeHamburger} href="/#/services">Services</a>
@@ -65,12 +69,20 @@ function Layout() {
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 60%;
+          width: 70%;
           position: absolute;
           right: 4%;
         }
 
-        @media (max-width: 1000px) {
+        @media (max-width: 1300px) {
+          .title {
+            width: 50%;
+          }
+
+        }
+
+
+        @media (max-width: 1100px) {
           .links-big {
             display: ${hamburgerOpen ? 'flex' : 'none'};
             flex-direction: column;
@@ -81,6 +93,7 @@ function Layout() {
 
           .hamburger_button {
             display: flex;
+            justify-content: flex-end;
           }
 
           .link-holder {
@@ -95,9 +108,7 @@ function Layout() {
             padding: 2rem 0rem;
           }
 
-          .title {
-            width: 50%;
-          }
+          
 
           .topLink {
             margin-top: 10px;
