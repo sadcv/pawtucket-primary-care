@@ -1,11 +1,11 @@
 import './Layout.css';
 import { Outlet } from "react-router-dom";
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import logo from "../media/logo_with_circle.png"
 import hamburger from "../media/hamburger_menu.png"
 
 function Layout() {
-  
+
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
   const toggleHamburger = () => {
@@ -19,7 +19,7 @@ function Layout() {
   return (
     <div className="Layout">
       {/* Header */}
-      <nav className='navbar' style={{ color: "white", backgroundColor: "#2C7370", display: "flex"}}>
+      <nav className='navbar'>
         <div style={{ display: "flex", alignItems: "center", position: "absolute", left: "4%" }} >
           <a className='navLink' href="/#/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></a>
           <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a>
@@ -43,6 +43,9 @@ function Layout() {
         .navbar {
           height: 5rem;
           align-items: center;
+          color: white;
+          background-color: #2C7370;
+          display: flex;
         }
 
         .hamburger_button {
@@ -106,7 +109,9 @@ function Layout() {
 
       `}</style>
 
-      <Outlet />
+      <Suspense fallback={<h1>Loading the Pawtucket Primary Care website...</h1>}>
+        <Outlet />
+      </Suspense>
 
       {/* Footer */}
       <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-start", padding: "2rem 8%" }}>

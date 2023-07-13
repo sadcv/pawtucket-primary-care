@@ -1,14 +1,17 @@
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
+import { lazy } from "react";
+
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Services from "./pages/Services";
-import OurClinician from "./pages/OurClinician";
-import ContactUs from "./pages/ContactUs";
-import HoursOfOperation from "./pages/HoursOfOperation";
-import Insurance from "./pages/Insurance";
-import BookAppointment from "./pages/BookAppointment";
-import NoPage from "./pages/NoPage";
+const Services = lazy(() => import("./pages/Services"))
+const OurClinician = lazy(() => import("./pages/OurClinician"))
+const ContactUs = lazy(() => import("./pages/ContactUs"))
+const HoursOfOperation = lazy(() => import("./pages/HoursOfOperation"))
+const Insurance = lazy(() => import("./pages/Insurance"))
+const BookAppointment = lazy(() => import("./pages/BookAppointment"))
+const NoPage = lazy(() => import("./pages/NoPage"))
+
 
 export default function App() {
   return (
