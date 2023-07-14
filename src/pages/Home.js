@@ -67,7 +67,7 @@ function Home() {
             <h2 className='home_tagline'>At Pawtucket Primary Care, we give individualized, person centered care.</h2>
             <p>With personalized health care, patients can experience improved quality of life through preventative care,
               better management of chronic illnesses, and faster recovery from acute conditions. We work closely with each
-              individual to plan their care and support and to meet their unique needs.</p>
+              individual to plan their care to meet their unique needs.</p>
           </div>
           <div className="main_img" style={{ position: "relative" }} >
             <img src={main_pic} alt="" className="layer2" style={{ width: "100%", height: "15rem", position: "absolute", objectFit: "cover" }} />

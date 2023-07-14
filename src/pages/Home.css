@@ -74,7 +74,7 @@
   bottom: 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .main_img {
     min-width: 80%;
     height: 16rem;
