@@ -38,7 +38,7 @@ function Home() {
             "slogan": "At Pawtucket Primary Care, we give individualized, person centered care.",
             "telephone": "(401) 244-5900",
             "isAcceptingNewPatients": "true",
-            "email": "pawtucketprimarycare.com",
+            "email": "pawtucket.primary.care@gmail.com",
             "founder": {
               "@type": "Person",
               "givenName": "Anne",
