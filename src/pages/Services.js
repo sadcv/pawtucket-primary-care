@@ -1,9 +1,9 @@
 import './Services.css';
 import Helmet from "react-helmet";
-import tablet from "../media/tablet.png";
-import pulse from "../media/hands_and_pulse.jpg";
-import greeting from "../media/doctor_greeting.jpg";
-import pain from "../media/stomach_pain.jpg";
+import tablet from "../media/Page_Banners/Our_Services_Banner.png";
+import pulse from "../media/Services-Primary_Care.jpg";
+import greeting from "../media/Services-Chronic.jpg";
+import pain from "../media/Services-Same_Day_Appointment.jpg";
 
 function Services() {
   return (

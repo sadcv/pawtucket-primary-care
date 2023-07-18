@@ -1,5 +1,5 @@
 import Helmet from "react-helmet";
-import hours from "../media/hours.png";
+import hours from "../media/Page_Banners/Hours_Banner.png";
 
 function HoursOfOperation() {
   return (

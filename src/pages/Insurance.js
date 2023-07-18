@@ -1,5 +1,5 @@
 import Helmet from "react-helmet";
-import insurance from "../media/insurance.png";
+import insurance from "../media/Page_Banners/Insurance_Banner.png";
 
 function Insurance() {
   return (

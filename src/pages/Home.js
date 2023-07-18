@@ -1,12 +1,12 @@
 import './Home.css';
 import Helmet from "react-helmet";
-import main_pic from "../media/home_main_pic.jpg";
-import second_pic from "../media/home_second_pic.jpg";
+import main_pic from "../media/Decorative/home_main_pic.jpg";
+import second_pic from "../media/Decorative/home_second_pic.jpg";
 
-import solid_circle_top_left from "../media/solid_circle_top_left.png";
-import circle_top_left from "../media/circle_top_left.png";
-import circle_bottom_left from "../media/circle_bottom_left.png";
-import circle_bottom_right from "../media/circle_bottom_right.png";
+import solid_circle_top_left from "../media/Decorative/solid_circle_top_left.png";
+import circle_top_left from "../media/Decorative/circle_top_left.png";
+import circle_bottom_left from "../media/Decorative/circle_bottom_left.png";
+import circle_bottom_right from "../media/Decorative/circle_bottom_right.png";
 
 function Home() {
   return (
@@ -65,7 +65,7 @@ function Home() {
           <div className='top_text layer1' style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
             <h1 className='home_title'>Pawtucket Primary Care</h1>
             <h2 className='home_tagline'>At Pawtucket Primary Care, we give individualized, person centered care.</h2>
-            <p>With personalized health care, patients can experience improved quality of life through preventative care,
+            <p>Pawtucket Primary Care is a newly founded healthcare clinic based in Pawtucket, Rhode Island. With personalized health care, patients can experience improved quality of life through preventative care,
               better management of chronic illnesses, and faster recovery from acute conditions. We work closely with each
               individual to plan their care to meet their unique needs.</p>
           </div>

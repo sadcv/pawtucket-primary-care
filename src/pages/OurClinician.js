@@ -1,7 +1,7 @@
 import Helmet from "react-helmet";
-import nurse_picture from "../media/anne_headshot.png";
-import solid_circle_right from "../media/clinician_solid_circle_right.png";
-import solid_circle_left from "../media/clinician_solid_circle_left.png";
+import nurse_picture from "../media/Anne_Valez_Picture.png";
+import solid_circle_right from "../media/Decorative/clinician_solid_circle_right.png";
+import solid_circle_left from "../media/Decorative/clinician_solid_circle_left.png";
 
 function OurClinician() {
   return (
@@ -24,18 +24,20 @@ function OurClinician() {
                 "@type": "Organization",
                 "name": "Pawtucket Primary Care",
                 "url": "pawtucketprimarycare.com"
-              }
+              },
+              "keywords": "Anne Valez, pawtucket primary care, anne valez pawtucket primary care, anne valez 2023, where does anne valez work, primary care pawtucket ri, primary care doctors pawtucket ri, pawtucket medical center",
+              "description": "A provider page where Anne Valez, NP, displays her current information and skills"
             })}
           </script>
         </Helmet>
-        <img className='portrait layer2' src={nurse_picture} alt="Our nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} />
+        <img className='portrait layer2' src={nurse_picture} title="Anne Valez NP" alt="Our nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} />
         <div className='clinician_holder layer2' style={{ width: "32rem" }}>
           <h2 style={{ fontSize: "24px", fontWeight: "600" }} >Meet the Clinician</h2>
           <div className='clinician_title_holder layer1' style={{ display: "flex", marginBottom: "1rem", flexWrap: "wrap" }}>
             <h1 className='layer2' style={{ fontSize: "48px", fontWeight: "600", marginRight: "10px" }} >Anne Valez</h1>
             <h1 className='layer2' style={{ fontSize: "48px", color: "#2C7370", fontWeight: "600" }} >APRN, FNP</h1>
           </div>
-          <img className='alt_portrait layer2' src={nurse_picture} alt="Our nurse practioner, Anne Valez" style={{ width: "18rem", border: "10px solid white", borderRadius: "5px" }} />
+          <img className='alt_portrait layer2' src={nurse_picture} title="Anne Valez NP" alt="Our nurse practioner, Anne Valez" style={{ width: "18rem", border: "10px solid white", borderRadius: "5px" }} />
           <div className='clinician_text_holder'>
             <div style={{ marginBottom: "1rem" }} >
               <p className='clinician-mid_print layer2'>Dedicated to providing quality care to patients.</p>
