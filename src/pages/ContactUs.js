@@ -32,7 +32,7 @@ function ContactUs() {
               "postalCode": "02860",
               "streetAddress": "126 Prospect Street Suite 201"
             },
-            "faxNumber": "(401) 262-5501",
+            "faxNumber": "(401)335-5014",
             "logo": "https://pawtucketprimarycare.com/logo.png",
             "telephone": "(401) 244-5900",
             "email": "pawtucket.primary.care@gmail.com",
@@ -54,7 +54,7 @@ function ContactUs() {
             <h2 className='spaceBottom contactTitle' >Contact</h2>
             <div>
               <p className='spaceBottom contactText' >Call: (401) 244-5900</p>
-              <p className='spaceBottom contactText' >Fax: (401) 262-5501</p>
+              <p className='spaceBottom contactText' >Fax: (401) 335-5014</p>
             </div>
           </div>
         </div>

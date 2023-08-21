@@ -33,7 +33,7 @@ function Home() {
               "postalCode": "02860",
               "streetAddress": "126 Prospect Street Suite 201"
             },
-            "faxNumber": "(401) 262-5501",
+            "faxNumber": "(401)335-5014",
             "logo": "https://pawtucketprimarycare.com/logo.png",
             "slogan": "At Pawtucket Primary Care, we give individualized, person centered care.",
             "telephone": "(401) 244-5900",
