@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.620fea51.css",
-    "main.js": "/static/js/main.135300b9.js",
+    "main.css": "/static/css/main.1fd1526c.css",
+    "main.js": "/static/js/main.9d323c97.js",
     "static/css/503.9c4bcb22.chunk.css": "/static/css/503.9c4bcb22.chunk.css",
     "static/js/503.3c8a9cb9.chunk.js": "/static/js/503.3c8a9cb9.chunk.js",
-    "static/js/521.cbbc7aef.chunk.js": "/static/js/521.cbbc7aef.chunk.js",
+    "static/js/521.8920a446.chunk.js": "/static/js/521.8920a446.chunk.js",
     "static/js/650.3be50951.chunk.js": "/static/js/650.3be50951.chunk.js",
     "static/js/887.2065de68.chunk.js": "/static/js/887.2065de68.chunk.js",
-    "static/js/387.4426fdf8.chunk.js": "/static/js/387.4426fdf8.chunk.js",
-    "static/js/683.c6d41617.chunk.js": "/static/js/683.c6d41617.chunk.js",
+    "static/js/387.57953c5d.chunk.js": "/static/js/387.57953c5d.chunk.js",
+    "static/js/683.e19485a1.chunk.js": "/static/js/683.e19485a1.chunk.js",
     "static/js/623.86dc001f.chunk.js": "/static/js/623.86dc001f.chunk.js",
-    "static/media/Anne_Valez_Picture.png": "/static/media/Anne_Valez_Picture.442269b89e210118e53e.png",
     "static/media/home_second_pic.jpg": "/static/media/home_second_pic.19d767e268a617d96dfd.jpg",
     "static/media/Hours_Banner.png": "/static/media/Hours_Banner.aeaba9dcbb3251bff22e.png",
     "static/media/Insurance_Banner.png": "/static/media/Insurance_Banner.2da9af0433e1e1084709.png",
@@ -19,6 +18,7 @@
     "static/media/Pawtucket_Primary_Care-Door_Outside.png": "/static/media/Pawtucket_Primary_Care-Door_Outside.301f162b06e6f021bdda.png",
     "static/media/Pawtucket_Primary_Care-Sign_Outside.png": "/static/media/Pawtucket_Primary_Care-Sign_Outside.e55063269bb1561b1d0b.png",
     "static/media/home_main_pic.jpg": "/static/media/home_main_pic.4db3c959e000f1b51185.jpg",
+    "static/media/Anne_Valez_Picture.png": "/static/media/Anne_Valez_Picture.ba7211bd7aad31ac6fd9.png",
     "static/media/Services-Same_Day_Appointment.jpg": "/static/media/Services-Same_Day_Appointment.67c47fafece96c7cb5aa.jpg",
     "static/media/instagram_logo.png": "/static/media/instagram_logo.ed071077fc911932f21a.png",
     "static/media/Services-Chronic.jpg": "/static/media/Services-Chronic.676911c27d98ac2678ca.jpg",
@@ -30,19 +30,19 @@
     "static/media/nextdoor_logo.png": "/static/media/nextdoor_logo.3cd66084fff2e40bfffd.png",
     "static/media/youtube_logo.png": "/static/media/youtube_logo.67cc9a9abc4c89f64a25.png",
     "index.html": "/index.html",
-    "main.620fea51.css.map": "/static/css/main.620fea51.css.map",
-    "main.135300b9.js.map": "/static/js/main.135300b9.js.map",
+    "main.1fd1526c.css.map": "/static/css/main.1fd1526c.css.map",
+    "main.9d323c97.js.map": "/static/js/main.9d323c97.js.map",
     "503.9c4bcb22.chunk.css.map": "/static/css/503.9c4bcb22.chunk.css.map",
     "503.3c8a9cb9.chunk.js.map": "/static/js/503.3c8a9cb9.chunk.js.map",
-    "521.cbbc7aef.chunk.js.map": "/static/js/521.cbbc7aef.chunk.js.map",
+    "521.8920a446.chunk.js.map": "/static/js/521.8920a446.chunk.js.map",
     "650.3be50951.chunk.js.map": "/static/js/650.3be50951.chunk.js.map",
     "887.2065de68.chunk.js.map": "/static/js/887.2065de68.chunk.js.map",
-    "387.4426fdf8.chunk.js.map": "/static/js/387.4426fdf8.chunk.js.map",
-    "683.c6d41617.chunk.js.map": "/static/js/683.c6d41617.chunk.js.map",
+    "387.57953c5d.chunk.js.map": "/static/js/387.57953c5d.chunk.js.map",
+    "683.e19485a1.chunk.js.map": "/static/js/683.e19485a1.chunk.js.map",
     "623.86dc001f.chunk.js.map": "/static/js/623.86dc001f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.620fea51.css",
-    "static/js/main.135300b9.js"
+    "static/css/main.1fd1526c.css",
+    "static/js/main.9d323c97.js"
   ]
 }
