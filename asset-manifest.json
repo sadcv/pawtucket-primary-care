@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1fd1526c.css",
-    "main.js": "/static/js/main.9d323c97.js",
+    "main.js": "/static/js/main.558adb8b.js",
     "static/css/503.9c4bcb22.chunk.css": "/static/css/503.9c4bcb22.chunk.css",
-    "static/js/503.3c8a9cb9.chunk.js": "/static/js/503.3c8a9cb9.chunk.js",
+    "static/js/503.eefa7bf5.chunk.js": "/static/js/503.eefa7bf5.chunk.js",
     "static/js/521.8920a446.chunk.js": "/static/js/521.8920a446.chunk.js",
     "static/js/650.3be50951.chunk.js": "/static/js/650.3be50951.chunk.js",
     "static/js/887.2065de68.chunk.js": "/static/js/887.2065de68.chunk.js",
@@ -31,9 +31,9 @@
     "static/media/youtube_logo.png": "/static/media/youtube_logo.67cc9a9abc4c89f64a25.png",
     "index.html": "/index.html",
     "main.1fd1526c.css.map": "/static/css/main.1fd1526c.css.map",
-    "main.9d323c97.js.map": "/static/js/main.9d323c97.js.map",
+    "main.558adb8b.js.map": "/static/js/main.558adb8b.js.map",
     "503.9c4bcb22.chunk.css.map": "/static/css/503.9c4bcb22.chunk.css.map",
-    "503.3c8a9cb9.chunk.js.map": "/static/js/503.3c8a9cb9.chunk.js.map",
+    "503.eefa7bf5.chunk.js.map": "/static/js/503.eefa7bf5.chunk.js.map",
     "521.8920a446.chunk.js.map": "/static/js/521.8920a446.chunk.js.map",
     "650.3be50951.chunk.js.map": "/static/js/650.3be50951.chunk.js.map",
     "887.2065de68.chunk.js.map": "/static/js/887.2065de68.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.1fd1526c.css",
-    "static/js/main.9d323c97.js"
+    "static/js/main.558adb8b.js"
   ]
 }
