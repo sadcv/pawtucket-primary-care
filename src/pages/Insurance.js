@@ -15,19 +15,22 @@ function Insurance() {
         <h1 className='page_header'>Insurance</h1>
       </div>
       <div style={{ display: "flex", flexDirection: "column", padding: "4rem 4rem" }} >
-        <p className='insurance_text'>We take most forms of insurance.</p>
+        {/* <p className='insurance_text'>We take most forms of insurance.</p> */}
+        {/* <p style={{width: "30rem", marginBottom: "1rem"}}>Don't see your insurance provider? We are likely to add them soon! Please bear with us as we seek to accept everyone we can.</p> */}
+        <p className='insurance_text' style={{width: "30rem"}}>Don't see your insurance provider? We are likely to add them soon! Please bear with us as we seek to accept everyone we can.</p>
         <div style={{ display: "flex", justifyContent: "space-between" }} >
           <ul>
-            <li className='insurance_text' >Medicare</li>
-            <li className='insurance_text' >Blue Cross / Blue Shield</li>
+            {/* <li className='insurance_text' >Medicare</li> */}
+            <li className='insurance_text' >Blue Cross Blue Shield</li>
             <li className='insurance_text' >United HealthCare</li>
             <li className='insurance_text' >Aetna</li>
           </ul>
           <ul style={{ marginLeft: "4rem" }}>
             <li className='insurance_text' >Cigna</li>
-            <li className='insurance_text' >Tufts</li>
+            {/* <li className='insurance_text' >Tufts</li> */}
             <li className='insurance_text' >TriCare</li>
-            <li className='insurance_text' >Multiplan</li>
+            <li className='insurance_text' >Neighborhood</li>
+            {/* <li className='insurance_text' >Multiplan</li> */}
           </ul>
         </div>
       </div>

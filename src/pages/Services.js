@@ -76,7 +76,6 @@ function Services() {
               <li>Weight Management</li>
             </ul>
             <ul style={{ width: "8rem" }}>
-              <li>Opioid Addiction Treatment</li>
               <li>Specialist Referrals</li>
               <li>Medication Management</li>
             </ul>

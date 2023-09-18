@@ -60,6 +60,11 @@ function Home() {
       </Helmet>
       {/* Main Content */}
       <div className="layer1" style={{ position: "relative" }} >
+        {/* Banner Announcement */}
+        <div className='layer1' style={{textAlign: "center", border: "5px double #2C7370", margin: "10px", padding: "10px", position:"relative"}}>
+          <h1  className='layer1'>We are now accepting <b style={{color: "#2C7370"}}>SAME-DAY</b> appointments! Schedule an appoinment <a href='https://healow.com/apps/provider/anne-valez-3124588' target='_blank' rel="noreferrer" style={{color: "#2C7370"}}>here</a> today.</h1>
+          < p  className='layer1' style={{color: "red"}}>Please note that Pawtucket Primary Care is <b>not</b> an urgent care.  If you are experiencing an emergency or life threatening illness, call 911 or go to your local ER.</p>
+        </div>
         {/* Top Bar */}
         <div className='top_bar' style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }} >
           <div className='top_text layer1' style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }} >

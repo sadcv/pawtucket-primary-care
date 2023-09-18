@@ -37,7 +37,7 @@ function Layout() {
             <a className='navLink topLink' onClick={closeHamburger} href="/#/contact">Contact Us</a>
             <a className='navLink topLink' onClick={closeHamburger} href="/#/hours">Hours Of Operation</a>
             <a className='navLink topLink' onClick={closeHamburger} href="/#/insurance">Insurance</a>
-            <a className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} href="/#/appointment">Book Appointment</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} href="https://healow.com/apps/provider/anne-valez-3124588" target='_blank' rel="noreferrer">Book Appointment</a>
           </div>
         </div>
       </nav>
