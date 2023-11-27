@@ -142,7 +142,7 @@ function Layout() {
         </div>
         <div className='footer_section'>
           <h2 className='bottomPad'>CONTACT US</h2>
-          <p className='bottomPad'>Phone: (401) 244-5900</p>
+          <p className='bottomPad'>Phone: (401) 205-2322 OR (401) 335-3025</p>
           <p className='bottomPad'>Fax: (401) 335-5014</p>
           <p className='bottomPad'>126 Prospect St, Suite 201, Pawtucket, RI 02860</p>
           <p className='bottomPad'>pawtucket.primary.care@gmail.com</p>

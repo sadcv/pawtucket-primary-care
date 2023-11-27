@@ -53,7 +53,7 @@ function ContactUs() {
           <div style={{ marginTop: "2rem" }}>
             <h2 className='spaceBottom contactTitle' >Contact</h2>
             <div>
-              <p className='spaceBottom contactText' >Call: (401) 244-5900</p>
+              <p className='spaceBottom contactText' >Call: (401) 205-2322 OR (401) 335-3025</p>
               <p className='spaceBottom contactText' >Fax: (401) 335-5014</p>
             </div>
           </div>
