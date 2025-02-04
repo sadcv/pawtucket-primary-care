@@ -9,7 +9,8 @@ const OurClinician = lazy(() => import("./pages/OurClinician"))
 const ContactUs = lazy(() => import("./pages/ContactUs"))
 const HoursOfOperation = lazy(() => import("./pages/HoursOfOperation"))
 const Insurance = lazy(() => import("./pages/Insurance"))
-const BookAppointment = lazy(() => import("./pages/BookAppointment"))
+// const BookAppointment = lazy(() => import("./pages/BookAppointment"))
+const Esthetics = lazy(() => import("./pages/Esthetics"))
 const NoPage = lazy(() => import("./pages/NoPage"))
 
 
@@ -24,7 +25,8 @@ export default function App() {
           <Route path="contact" element={<ContactUs />} />
           <Route path="hours" element={<HoursOfOperation />} />
           <Route path="insurance" element={<Insurance />} />
-          <Route path="appointment" element={<BookAppointment />} />
+          {/* <Route path="appointment" element={<BookAppointment />} /> */}
+          <Route path="esthetics" element={<Esthetics />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

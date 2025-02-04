@@ -97,7 +97,7 @@ function Home() {
             </div>
             <div className='buttonHolder' >
               <div className="callButton layer1" ><a className="callButtonLink" href="/#/clinician">Meet Our Provider</a></div>
-              <div className="callButton layer1" ><a className="callButtonLink" href="/#/appointment">Book an Appointment</a></div>
+              {/* <div className="callButton layer1" ><a className="callButtonLink" href="/#/appointment">Book an Appointment</a></div> */}
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import './Layout.css';
 import { Outlet } from "react-router-dom";
 import { Suspense, useState } from 'react';
 import logo from "../media/logo_with_circle.png"
+import new_logo from "../media/Social_Logos/New_PPC_Logo.png"
 import hamburger from "../media/hamburger_menu.png"
 
 function Layout() {
@@ -22,7 +23,11 @@ function Layout() {
       <nav className='navbar'>
         <div style={{ display: "flex", alignItems: "center", marginLeft: "4%" }} >
           <a className='navLink' href="/#/"><img style={{ width: "50px", height: "50px" }} src={logo} alt="Pawtucket Primary Care logo" /></a>
-          <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a>
+          {/* <a className='navLink title' href="/#/"><h1 style={{ marginLeft: "1rem" }} >Pawtucket Primary Care</h1></a> */}
+          <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginLeft: "10px"}}>
+            <p style={{fontSize: "20px", fontWeight: 600, letterSpacing: "0.1em", lineHeight: "1em"}}>PAWTUCKET</p>
+            <p style={{fontSize: "12px", letterSpacing: "0.36em"}}>PRIMARY CARE</p>
+          </div>
         </div>
         <div className="link-holder">
           <div className='hamburger_button' style={{width: "8rem"}} onClick={toggleHamburger} >
@@ -31,12 +36,13 @@ function Layout() {
           </div>
           
           <div className='links-big'>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/">Home</a>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/services">Services</a>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/clinician">Our Clinician</a>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/contact">Contact Us</a>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/hours">Hours Of Operation</a>
-            <a className='navLink topLink' onClick={closeHamburger} href="/#/insurance">Insurance</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/">HOME</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/services">SERVICES</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/clinician">OUR CLINICIAN</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/contact">CONTACT US</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/hours">HOURS OF OPERATION</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/insurance">INSURANCE</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/esthetics">ESTHETICS</a>
             {/* <a className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} href="https://healow.com/apps/provider/anne-valez-3124588" target='_blank' rel="noreferrer">Book Appointment</a> */}
           </div>
         </div>
@@ -64,6 +70,8 @@ function Layout() {
           justify-content: end;
           width: 100%;
           gap: 4rem;
+          text-align: center;
+
         }
 
         .link-holder {
@@ -83,13 +91,13 @@ function Layout() {
         }
 
 
-        @media (max-width: 1100px) {
+        @media (max-width: 1200px) {
           .links-big {
             display: ${hamburgerOpen ? 'flex' : 'none'};
             flex-direction: column;
             margin-top: 10px;
             width: auto;
-            text-align: center;
+            gap: 12px;
           }
 
           .hamburger_button {
@@ -123,58 +131,49 @@ function Layout() {
       </Suspense>
 
       {/* Footer */}
-      <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-start", padding: "2rem 8%" }}>
-        <div className='footer_section'>
-          <h2 className='bottomPad'>LINKS</h2>
-          <div style={{ display: "flex" }} >
-            <div style={{ display: "flex", flexDirection: "column" }} >
-              <a className='navLink bottomPad' href="/#/">Home</a>
-              <a className='navLink bottomPad' href="/#/services">Services</a>
-              <a className='navLink bottomPad' href="/#/clinician">Our Clinician</a>
-              <a className='navLink bottomPad' href="/#/contact">Contact Us</a>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", marginLeft: "2rem" }} >
-              <a className='navLink bottomPad' href="/#/hours">Hours Of Operation</a>
-              <a className='navLink bottomPad' href="/#/insurance">Insurance</a>
-              {/* <a className='navLink bottomPad' href="/#/appointment">Book Appointment</a> */}
-              {/* <a className='navLink bottomPad' href="/#/terms">TERMS OF SERVICE</a> */}
-            </div>
+      <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", flexWrap: "wrap", justifyContent: "space-evenly", minHeight: "24vh", padding: "2rem", rowGap: "2rem", columnGap: "2rem"}}>
+        <div style={{display: "flex", flexDirection: "column", width: "auto", gap: 4}}>
+          <h2><b>LINKS</b></h2>
+          <hr/>
+          <div style={{display: "flex", gap: 16}}>
+          <div style={{display: "flex", flexDirection: "column", gap: 4}}>
+            <a className='navLink' href="/#/">HOME</a>
+            <a className='navLink' href="/#/services">SERVICES</a>
+            <a className='navLink' href="/#/insurance">INSURANCE</a>
+            <a className='navLink' href="/#/clinician">OUR CLINICIAN</a>
+          </div>
+          <div style={{display: "flex", flexDirection: "column", gap: 4}}>
+            <a className='navLink' href="/#/hours">HOURS OF OPERATION</a>
+            <a className='navLink' href="/#/esthetics">ESTHETIC SERVICES</a>
+            <a className='navLink' href="/#/contact">CONTACT US</a>
+          </div>
           </div>
         </div>
-        <div className='footer_section'>
-          <h2 className='bottomPad'>CONTACT US</h2>
-          <p className='bottomPad'>Phone: (401) 205-2322 OR (401) 335-3025</p>
-          <p className='bottomPad'>Fax: (401) 335-5014</p>
-          <p className='bottomPad'>126 Prospect St, Suite 201, Pawtucket, RI 02860</p>
-          <p className='bottomPad'>pawtucket.primary.care@gmail.com</p>
-        </div>
-        <div className='footer_section' >
-          <h2 className='bottomPad'>HOURS</h2>
-          <div className='hours_list' >
-            <p className='bottomPadSmall'>Monday:</p>
-            <p className='bottomPadSmall spaceLeft'>8:00 am - 4:30 pm</p>
-          </div>
-          <div className='hours_list'>
-            <p className='bottomPadSmall'>Tuesday:</p>
-            <p className='bottomPadSmall spaceLeft'>8:00 am - 4:30 pm</p>
-          </div>
-          <div className='hours_list'>
-            <p className='bottomPadSmall'>Wednesday:</p>
-            <p className='bottomPadSmall spaceLeft'>8:00 am - 4:30 pm</p>
-          </div>
-          <div className='hours_list'>
-            <p className='bottomPadSmall'>Thursday:</p>
-            <p className='bottomPadSmall spaceLeft'>8:00 am - 4:30 pm</p>
-          </div>
-          <div className='hours_list'>
-            <p className='bottomPadSmall'>Friday:</p>
-            <p className='bottomPadSmall spaceLeft spaceLeft'>8:00 am - 4:30 pm</p>
+        <div style={{display: "flex", flexDirection: "column", width: "16rem", gap: 4}}>
+          <h2><b>CONTACT</b></h2>
+          <hr/>
+          <p><b>126 PROSPECT ST, SUITE 201 <br/>
+          PAWTUCKET, RI 02860</b></p>
+          <p>pawtucketprimarycare @ gmail.com</p>
+          <div style={{display: "flex", justifyContent: "space-between"}}>
+            <p>(401) 205-2149</p>
+            <p>(401) 335-5014</p>
           </div>
         </div>
-        <div className='footer_section' style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-          <img style={{ width: "100px", height: "100px" }} src={logo} alt="Pawtucket Primary Care logo" />
-          <h1 className='bottomPad'>Pawtucket Primary Care</h1>
+        <div style={{display: "flex", flexDirection: "column", gap: 4}}>
+          <h2><b>HOURS</b></h2>
+          <hr/>
+          <p>
+            <b>MON - FRI</b>
+            <br/>
+            8 AM - 4:30 pm
+            <br/>
+            <b>SAT & SUN</b>
+            <br/>
+            Closed
+          </p>
         </div>
+        <img src={new_logo} alt='Pawtucket Primary Care logo' style={{height: "15vh"}}/>
       </div>
     </div>
   );
