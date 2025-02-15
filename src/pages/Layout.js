@@ -39,10 +39,10 @@ function Layout() {
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/">HOME</a>
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/services">SERVICES</a>
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/clinician">OUR CLINICIAN</a>
+            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/esthetics">ESTHETICS</a>
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/contact">CONTACT US</a>
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/hours">HOURS OF OPERATION</a>
             <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/insurance">INSURANCE</a>
-            <a className='navLink topLink' onClick={closeHamburger} style={{fontSize: "14px"}} href="/#/esthetics">ESTHETICS</a>
             {/* <a className='navLink topLink' onClick={closeHamburger} style={{ color: "#2C7370", backgroundColor: "white", padding: ".5rem 1rem", borderRadius: "10px", fontWeight: "400" }} href="https://healow.com/apps/provider/anne-valez-3124588" target='_blank' rel="noreferrer">Book Appointment</a> */}
           </div>
         </div>
@@ -140,11 +140,11 @@ function Layout() {
             <a className='navLink' href="/#/">HOME</a>
             <a className='navLink' href="/#/services">SERVICES</a>
             <a className='navLink' href="/#/insurance">INSURANCE</a>
-            <a className='navLink' href="/#/clinician">OUR CLINICIAN</a>
+            <a className='navLink' href="/#/esthetics">ESTHETIC SERVICES</a>
           </div>
           <div style={{display: "flex", flexDirection: "column", gap: 4}}>
+            <a className='navLink' href="/#/clinician">OUR CLINICIAN</a>
             <a className='navLink' href="/#/hours">HOURS OF OPERATION</a>
-            <a className='navLink' href="/#/esthetics">ESTHETIC SERVICES</a>
             <a className='navLink' href="/#/contact">CONTACT US</a>
           </div>
           </div>
@@ -154,7 +154,7 @@ function Layout() {
           <hr/>
           <p><b>126 PROSPECT ST, SUITE 201 <br/>
           PAWTUCKET, RI 02860</b></p>
-          <p>pawtucketprimarycare @ gmail.com</p>
+          <p>pawtucket.primary.care@gmail.com</p>
           <div style={{display: "flex", justifyContent: "space-between"}}>
             <p>(401) 205-2149</p>
             <p>(401) 335-5014</p>
