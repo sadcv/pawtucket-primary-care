@@ -10,6 +10,17 @@ function Insurance() {
         <meta name="description" content="We take most forms of insurance at Pawtucket Primary Care. Check for yours on our website." />
         <link rel="canonical" href="http://pawtucketprimarycare.com/#/insurance" />
       </Helmet>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+          `}
+        </script>
       <div style={{ position: "relative" }}>
         <img src={insurance} alt="" className='page_header_img' style={{height: "21rem"}} />
         <h1 className='page_header'>Insurance</h1>

@@ -30,6 +30,17 @@ function OurClinician() {
             })}
           </script>
         </Helmet>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+          `}
+        </script>
         {/* <img className='portrait layer2' src={nurse_picture} title="Anne Valez NP" alt="Our nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} /> */}
         <div className='clinician_holder layer2' style={{ width: "32rem" }}>
           <h2 style={{ fontSize: "24px", fontWeight: "600" }} >Meet the Clinician</h2>

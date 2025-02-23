@@ -40,6 +40,17 @@ function ContactUs() {
           })}
         </script>
       </Helmet>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+          `}
+        </script>
       <div style={{ position: "relative" }}>
         <img src={maps} alt="" className='page_header_img' />
         <h1 className='page_header' >Contact Us</h1>

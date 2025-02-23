@@ -58,6 +58,17 @@ function Home() {
           })}
         </script>
       </Helmet>
+         {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+          `}
+        </script>
       {/* Main Content */}
       <div className="layer1" style={{ position: "relative" }} >
         {/* Banner Announcement */}
