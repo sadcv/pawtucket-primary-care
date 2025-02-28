@@ -5,22 +5,34 @@ function Insurance() {
   return (
     <div className="Insurance" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <Helmet>
-        <meta charSet="utf-8" />
-        <title>Supported Insurance - Pawtucket Primary Care</title>
-        <meta name="description" content="We take most forms of insurance at Pawtucket Primary Care. Check for yours on our website." />
-        <link rel="canonical" href="http://pawtucketprimarycare.com/#/insurance" />
-      </Helmet>
         {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
-        <script>
-          {`
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+      <script>
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'AW-11255017833');
-          `}
-        </script>
+
+        (function(w,d,s,l,i){w[l] = w[l] || [];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-33DBH7XQ');
+        `}
+      </script>
+      {/* <!-- End Google Tag Manager --> */}
+        <meta charSet="utf-8" />
+        <title>Supported Insurance - Pawtucket Primary Care</title>
+        <meta name="description" content="We take most forms of insurance at Pawtucket Primary Care. Check for yours on our website." />
+        <link rel="canonical" href="http://pawtucketprimarycare.com/#/insurance" />
+      </Helmet>
+
+            {/* <!-- Google Tag Manager (noscript) --> */}
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      {/* <!-- End Google Tag Manager (noscript) --> */}
       <div style={{ position: "relative" }}>
         <img src={insurance} alt="" className='page_header_img' style={{height: "21rem"}} />
         <h1 className='page_header'>Insurance</h1>

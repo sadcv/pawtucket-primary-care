@@ -156,8 +156,8 @@ function Layout() {
           PAWTUCKET, RI 02860</b></p>
           <p>pawtucket.primary.care@gmail.com</p>
           <div style={{display: "flex", justifyContent: "space-between"}}>
-            <p>(401) 205-2149</p>
-            <p>(401) 335-5014</p>
+            <a style={{color: "white"}} href='tel:4012052149'>(401) 205-2149</a>
+            <a style={{color: "white"}} href='tel:4012052149'>(401) 335-5014</a>
           </div>
         </div>
         <div style={{display: "flex", flexDirection: "column", gap: 4}}>

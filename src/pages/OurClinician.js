@@ -8,6 +8,24 @@ function OurClinician() {
     <div className="OurClinician">
       <div className='layer1' style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center", padding: "6rem 0rem" }}>
         <Helmet>
+        {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+
+        (function(w,d,s,l,i){w[l] = w[l] || [];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-33DBH7XQ');
+        `}
+      </script>
+      {/* <!-- End Google Tag Manager --> */}
           <meta charSet="utf-8" />
           <title>Anne Valez - Our Clinician - Pawtucket Primary Care</title>
           <meta name="description" content="Our primary care clinician, Anne Valez NP, is a local, experienced provider well-known for her empathetic, individualized approach to healthcare. Visit this page to find out more about her specialties and certifications." />
@@ -30,17 +48,11 @@ function OurClinician() {
             })}
           </script>
         </Helmet>
-        {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'AW-11255017833');
-          `}
-        </script>
+            {/* <!-- Google Tag Manager (noscript) --> */}
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      {/* <!-- End Google Tag Manager (noscript) --> */}
         {/* <img className='portrait layer2' src={nurse_picture} title="Anne Valez NP" alt="Our nurse practioner, Anne Valez" style={{ width: "20rem", border: "10px solid white", borderRadius: "5px" }} /> */}
         <div className='clinician_holder layer2' style={{ width: "32rem" }}>
           <h2 style={{ fontSize: "24px", fontWeight: "600" }} >Meet the Clinician</h2>

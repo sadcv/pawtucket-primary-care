@@ -12,6 +12,24 @@ function Home() {
   return (
     <div className="Home">
       <Helmet>
+        {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11255017833');
+
+        (function(w,d,s,l,i){w[l] = w[l] || [];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-33DBH7XQ');
+        `}
+      </script>
+      {/* <!-- End Google Tag Manager --> */}
         <meta charSet="utf-8" />
         <title>Pawtucket Primary Care - Get Personalized Healthcare Near You</title>
         <meta name="description" content="Pawtucket Primary Care is a newly founded local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
@@ -58,17 +76,11 @@ function Home() {
           })}
         </script>
       </Helmet>
-         {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11255017833"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'AW-11255017833');
-          `}
-        </script>
+            {/* <!-- Google Tag Manager (noscript) --> */}
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      {/* <!-- End Google Tag Manager (noscript) --> */}
       {/* Main Content */}
       <div className="layer1" style={{ position: "relative" }} >
         {/* Banner Announcement */}
