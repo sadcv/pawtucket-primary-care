@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1fd1526c.css",
-    "main.js": "/static/js/main.cd7e0fef.js",
+    "main.js": "/static/js/main.c084a332.js",
     "static/css/503.9c4bcb22.chunk.css": "/static/css/503.9c4bcb22.chunk.css",
     "static/js/503.3e5ac9c2.chunk.js": "/static/js/503.3e5ac9c2.chunk.js",
     "static/js/521.f5a8410f.chunk.js": "/static/js/521.f5a8410f.chunk.js",
     "static/js/650.7a9f520b.chunk.js": "/static/js/650.7a9f520b.chunk.js",
     "static/js/887.517d72c3.chunk.js": "/static/js/887.517d72c3.chunk.js",
     "static/js/387.c75ae7b0.chunk.js": "/static/js/387.c75ae7b0.chunk.js",
-    "static/js/475.e64057b5.chunk.js": "/static/js/475.e64057b5.chunk.js",
+    "static/js/142.5224038b.chunk.js": "/static/js/142.5224038b.chunk.js",
     "static/js/623.86dc001f.chunk.js": "/static/js/623.86dc001f.chunk.js",
     "static/media/esthetics_office.png": "/static/media/esthetics_office.99215ce8ad2a295f0086.png",
     "static/media/home_second_pic.jpg": "/static/media/home_second_pic.19d767e268a617d96dfd.jpg",
@@ -32,6 +32,7 @@
     "static/media/logo_with_circle.png": "/static/media/logo_with_circle.25ccf3888d00684da193.png",
     "static/media/Services-Primary_Care.jpg": "/static/media/Services-Primary_Care.79eaaa3871e5ae789d48.jpg",
     "static/media/facebook_logo.png": "/static/media/facebook_logo.65062c0e6678602327eb.png",
+    "static/media/offerings_banner.png": "/static/media/offerings_banner.8200ba59684599212d04.png",
     "static/media/yelp_logo.png": "/static/media/yelp_logo.3d276a85b211035a3f0f.png",
     "static/media/circle_bottom_right.png": "/static/media/circle_bottom_right.e17772ca67bb9a73ef6f.png",
     "static/media/nextdoor_logo.png": "/static/media/nextdoor_logo.3cd66084fff2e40bfffd.png",
@@ -39,18 +40,18 @@
     "static/media/youtube_logo.png": "/static/media/youtube_logo.67cc9a9abc4c89f64a25.png",
     "index.html": "/index.html",
     "main.1fd1526c.css.map": "/static/css/main.1fd1526c.css.map",
-    "main.cd7e0fef.js.map": "/static/js/main.cd7e0fef.js.map",
+    "main.c084a332.js.map": "/static/js/main.c084a332.js.map",
     "503.9c4bcb22.chunk.css.map": "/static/css/503.9c4bcb22.chunk.css.map",
     "503.3e5ac9c2.chunk.js.map": "/static/js/503.3e5ac9c2.chunk.js.map",
     "521.f5a8410f.chunk.js.map": "/static/js/521.f5a8410f.chunk.js.map",
     "650.7a9f520b.chunk.js.map": "/static/js/650.7a9f520b.chunk.js.map",
     "887.517d72c3.chunk.js.map": "/static/js/887.517d72c3.chunk.js.map",
     "387.c75ae7b0.chunk.js.map": "/static/js/387.c75ae7b0.chunk.js.map",
-    "475.e64057b5.chunk.js.map": "/static/js/475.e64057b5.chunk.js.map",
+    "142.5224038b.chunk.js.map": "/static/js/142.5224038b.chunk.js.map",
     "623.86dc001f.chunk.js.map": "/static/js/623.86dc001f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fd1526c.css",
-    "static/js/main.cd7e0fef.js"
+    "static/js/main.c084a332.js"
   ]
 }
