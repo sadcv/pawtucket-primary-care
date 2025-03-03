@@ -6,6 +6,7 @@ import braids_woman from "../media/esthetics/braids_woman.png"
 import ponytail_woman from "../media/esthetics/ponytail_woman.png"
 import redhead_woman from "../media/esthetics/redhead_woman.png"
 import woman_touching_face from "../media/esthetics/touch_face_woman.png"
+import offerings_banner from "../media/esthetics/offerings_banner.png"
 
 function Esthetics() {
   return (
@@ -111,8 +112,9 @@ function Esthetics() {
         {/* Information Section */}
         <div className="esthetics_info_section" style={{ backgroundColor: "#2C7370", padding: "5vw", display: "flex", gap: "5vw" }}>
           <img className="esthetics_info_decor" src={office} alt="The esthetics office" />
-          <div style={{ border: "3px solid white", outline: "6px solid white", outlineOffset: "5px", padding: "10px", textAlign: "center", display: "flex", alignItems: "center"}}>
-            <p style={{ padding: "1vw", fontSize: "2vw", fontFamily: "serif", letterSpacing: 2, lineHeight: "150%" }}>Pawtucket Primary Care is an AAFE certified clinic now administering Botox and Dermal Filler. We are accepting new patients.</p>
+          <div style={{ border: "3px solid white", outline: "6px solid white", outlineOffset: "5px", padding: "10px", textAlign: "center", display: "flex", flexDirection:"column", alignItems: "center", justifyContent: "space-around"}}>
+            <p style={{ padding: "1vw", fontSize: "2vw", fontFamily: "serif", letterSpacing: 2, lineHeight: "150%" }}>Pawtucket Primary Care is an AAFE certified clinic now administering esthetic treatments. We are accepting new patients.</p>
+            <img style={{maxWidth: "80%", maxHeight:"20%"}} src={offerings_banner} alt="" />
           </div>
           <img className="esthetics_info_decor" src={lips} alt="" />
         </div>
