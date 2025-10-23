@@ -102,6 +102,7 @@ function Services() {
               <li>Vaccinations</li>
               <li>Mental Health</li>
               <li>Weight Management</li>
+              <li>Weekly Weight Loss Injections</li>
             </ul>
             <ul style={{ width: "8rem" }}>
               <li>Specialist Referrals</li>

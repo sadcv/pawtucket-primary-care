@@ -132,6 +132,12 @@ function Layout() {
 
       {/* Footer */}
       <div style={{ color: "white", backgroundColor: "#2C7370", display: "flex", flexWrap: "wrap", justifyContent: "space-evenly", minHeight: "24vh", padding: "2rem", rowGap: "2rem", columnGap: "2rem"}}>
+
+      {/* <!-- Google Tag Manager (noscript) --> */}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      {/* <!-- End Google Tag Manager (noscript) --> */}
+
         <div style={{display: "flex", flexDirection: "column", width: "auto", gap: 4}}>
           <h2><b>LINKS</b></h2>
           <hr/>
@@ -164,11 +170,11 @@ function Layout() {
           <h2><b>HOURS</b></h2>
           <hr/>
           <p>
-            <b>MON - FRI</b>
+            <b>MON, TUE, WED, FRI</b>
             <br/>
-            8 AM - 4:30 pm
+            9 AM - 3 PM
             <br/>
-            <b>SAT & SUN</b>
+            <b>THUR, SAT & SUN</b>
             <br/>
             Closed
           </p>

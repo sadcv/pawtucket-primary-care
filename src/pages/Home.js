@@ -32,7 +32,7 @@ function Home() {
       {/* <!-- End Google Tag Manager --> */}
         <meta charSet="utf-8" />
         <title>Pawtucket Primary Care - Get Personalized Healthcare Near You</title>
-        <meta name="description" content="Pawtucket Primary Care is a newly founded local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
+        <meta name="description" content="Pawtucket Primary Care is a local healthcare clinic where Anne Valez, NP, our primary care clinician on staff, will provide you with individualized, empathetic care. We open on August 1st, 2023." />
         <link rel="canonical" href="http://pawtucketprimarycare.com/" />
         <link rel="icon" type="image/png" href="%PUBLIC_URL%/logo.png" />
         <script type="application/ld+json">
@@ -77,24 +77,27 @@ function Home() {
         </script>
       </Helmet>
 
-            {/* <!-- Google Tag Manager (noscript) --> */}
-            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      {/* <!-- End Google Tag Manager (noscript) --> */}
+      
       {/* Main Content */}
       <div className="layer1" style={{ position: "relative" }} >
+
+{/* <!-- Google Tag Manager (noscript) --> */}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-33DBH7XQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{/* <!-- End Google Tag Manager (noscript) --> */}
+
         {/* Banner Announcement */}
-        <div className='layer1' style={{textAlign: "center", border: "5px double #2C7370", margin: "10px", padding: "10px", position:"relative"}}>
-        {/* <h1  className='layer1'>We are now accepting <b style={{color: "#2C7370"}}>SAME-DAY</b> appointments! Schedule an appoinment <a href='https://healow.com/apps/provider/anne-valez-3124588' target='_blank' rel="noreferrer" style={{color: "#2C7370"}}>here</a> today.</h1> */}
+        {/* <div className='layer1' style={{textAlign: "center", border: "5px double #2C7370", margin: "10px", padding: "10px", position:"relative"}}>
+        <h1  className='layer1'>We are now accepting <b style={{color: "#2C7370"}}>SAME-DAY</b> appointments! Schedule an appoinment <a href='https://healow.com/apps/provider/anne-valez-3124588' target='_blank' rel="noreferrer" style={{color: "#2C7370"}}>here</a> today.</h1>
         <h1  className='layer1'>We are now accepting <b style={{color: "#2C7370"}}>SAME-DAY</b> appointments! Please contact our office to schedule an appoinment.</h1>
           < p  className='layer1' style={{color: "red"}}>Please note that Pawtucket Primary Care is <b>not</b> an urgent care.  If you are experiencing an emergency or life threatening illness, call 911 or go to your local ER.</p>
-        </div>
+        </div> */}
         {/* Top Bar */}
         <div className='top_bar' style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }} >
           <div className='top_text layer1' style={{ display: "flex", flexDirection: "column", justifyContent: "space-around" }} >
             <h1 className='home_title'>Pawtucket Primary Care</h1>
             <h2 className='home_tagline'>At Pawtucket Primary Care, we give individualized, person centered care.</h2>
-            <p>Pawtucket Primary Care is a newly founded healthcare clinic based in Pawtucket, Rhode Island. With personalized health care, patients can experience improved quality of life through preventative care,
+            <p>Pawtucket Primary Care is a healthcare clinic based in Pawtucket, Rhode Island. With personalized health care, patients can experience improved quality of life through preventative care,
               better management of chronic illnesses, and faster recovery from acute conditions. We work closely with each
               individual to plan their care to meet their unique needs.</p>
           </div>
