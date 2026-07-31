@@ -88,15 +88,23 @@ function Esthetics() {
         <div className="esthetics_banner">
           {/* Top Layer Div */}
           <div className="esthetics_top_banner">
-            <img className="esthetics_logo" src={esthetics_logo} alt="Pawtucket Primary Care Esthetics Logo" />
-            <div style={{ display: "flex", height: "20%", width: "100%", gap: "4rem", justifyContent: "center", fontSize: "24px" }}>
-              <button className="esthetics_button">
+            <img className="esthetics_logo" style={{ paddingTop: "2rem" }} src={esthetics_logo} alt="Pawtucket Primary Care Esthetics Logo" />
+            <button className="esthetics_button" style={{ width:"fit-content", height: "10%", fontSize: "1.5rem"}}>
+              Call (401) 205-2149</button>
+              <button className="esthetics_button" style={{ width:"fit-content", height: "10%", fontSize: "1.5rem"}}>
+              To Schedule Your Free Consultation</button>
+            {/* <div style={{ display: "flex", flexDirection: "column", height: "40%", width: "90%", padding: "2rem", gap: "2rem", justifyContent: "center", alignItems:"center", fontSize: "24px" }}>
+              
+              { <p> And Schedule a Free Consultation Today</p> }
+              
+              { <button className="esthetics_button">
               <a href="https://pawtucketprimarycare.myaestheticrecord.com/online-booking/h/Ml8yNTY1MV9jbGluaWNz" style={{color: "white", textDecoration: "none"}}>
               BOOK APPOINTMENT</a></button>
               <button className="esthetics_button" style={{ border: "solid #2C7370 4px", backgroundColor: "white"}}>
               <a href="https://pawtucketprimarycare.myaestheticrecord.com/login"  style={{color: "#2C7370", textDecoration: "none"}}>
-                EXISTING PATIENT PORTAL</a></button>
-            </div>
+                EXISTING PATIENT PORTAL</a></button> }
+                
+            </div> */}
           </div>
           {/* Bottom Layer Div */}
           <div style={{ height: "100%", display: "flex" }}>
